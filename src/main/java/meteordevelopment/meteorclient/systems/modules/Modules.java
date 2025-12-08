@@ -383,6 +383,7 @@ public class Modules extends System<Modules> {
         module.settings.registerColorSettings(module);
     }
     private void initDonut() {
+        add(new NewChunks());
         add(new AutoRTP());
         add(new ChorusAreaDisplay());
         add(new NoStrip());
@@ -503,6 +504,7 @@ public class Modules extends System<Modules> {
         add(new WallHack());   // Necessario per evitare crash
         add(new Xray());       // Necessario per evitare crash
         add(new Tracers()); // ⚠️ Flagga anticheat
+
         // add(new Trail()); // ⚠️ Flagga anticheat
         // add(new Trajectories()); // ⚠️ Flagga anticheat
         // add(new TunnelESP()); // ⚠️ Flagga anticheat
