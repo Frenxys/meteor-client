@@ -431,7 +431,7 @@ public class Modules extends System<Modules> {
         add(new NameProtect()); // Necessario per evitare crash
         add(new NoStatusEffects()); // Necessario per evitare crash
         add(new NoMiningTrace()); // Necessario per evitare crash
-        // add(new PotionSaver()); // ⚠️ Flagga anticheat
+        add(new PotionSaver()); // Necessario per evitare crash
         add(new Reach());// Necessario per evitare crash
         add(new Hitboxes());// Necessario per evitare crash
         add(new EntityControl());
@@ -489,6 +489,7 @@ public class Modules extends System<Modules> {
         add(new BossStack());
         add(new Breadcrumbs());
         add(new BreakIndicators());
+            add(new BetterTab()); // Fix crash: must be registered
         add(new CameraTweaks());
         add(new Chams());
         add(new CityESP());
