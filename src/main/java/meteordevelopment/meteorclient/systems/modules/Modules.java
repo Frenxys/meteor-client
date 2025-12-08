@@ -396,20 +396,21 @@ public class Modules extends System<Modules> {
         add(new AntiBed());
         // add(new ArrowDodge()); // ⚠️ Flagga anticheat
         // add(new AutoAnvil()); // ⚠️ Flagga anticheat
-        // add(new AutoArmor()); // ⚠️ Flagga anticheat
+        add(new ElytraFly());
+         add(new AutoArmor()); // ⚠️ Flagga anticheat
         // add(new AutoCity()); // ⚠️ Flagga anticheat
-        // add(new AutoEXP()); // ⚠️ Flagga anticheat
-        // add(new AutoLog()); // ⚠️ Flagga anticheat
-        // add(new AutoTotem()); // ⚠️ Flagga anticheat
+         add(new AutoEXP()); // ⚠️ Flagga anticheat
+         add(new AutoLog()); // ⚠️ Flagga anticheat
+         add(new AutoTotem()); // ⚠️ Flagga anticheat
         // add(new AutoTrap()); // ⚠️ Flagga anticheat
         // add(new AutoWeapon()); // ⚠️ Flagga anticheat
         // add(new AutoWeb()); // ⚠️ Flagga anticheat
-        // add(new BedAura()); // ⚠️ Flagga anticheat
+         add(new BedAura()); // ⚠️ Flagga anticheat
         // add(new BowAimbot()); // ⚠️ Flagga anticheat
         // add(new BowSpam()); // ⚠️ Flagga anticheat
         // add(new Burrow()); // ⚠️ Flagga anticheat
         // add(new Criticals()); // ⚠️ Flagga anticheat
-        // add(new CrystalAura()); // ⚠️ Flagga anticheat
+         add(new CrystalAura()); // ⚠️ Flagga anticheat
         // add(new Hitboxes()); // ⚠️ Flagga anticheat
         // add(new HoleFiller()); // ⚠️ Flagga anticheat
         // add(new KillAura()); // ⚠️ Flagga anticheat
@@ -424,16 +425,23 @@ public class Modules extends System<Modules> {
     private void initPlayer() {
         add(new AirPlace());
         add(new AntiAFK());
-        // add(new Criticals()); // ⚠️ Flagga anticheat
-        // add(new KillAura()); // ⚠️ Flagga anticheat
-        // add(new Portals()); // ⚠️ Flagga anticheat
+        add(new Zoom());
+        add(new HandView());
+        add(new Multitask()); // Necessario per evitare crash
+        add(new NameProtect()); // Necessario per evitare crash
+        add(new NoStatusEffects()); // Necessario per evitare crash
+        add(new NoMiningTrace()); // Necessario per evitare crash
         // add(new PotionSaver()); // ⚠️ Flagga anticheat
-        // add(new Reach()); // ⚠️ Flagga anticheat
+        add(new Reach());// Necessario per evitare crash
+        add(new Hitboxes());// Necessario per evitare crash
+        add(new EntityControl());
+        add(new FastUse()); // Necessario per evitare crash
         // add(new Rotation()); // ⚠️ Flagga anticheat
         // add(new SpeedMine()); // ⚠️ Flagga anticheat
     }
 
     private void initMovement() {
+
         add(new AirJump());
         add(new Anchor());
         add(new AutoEat());
@@ -441,33 +449,33 @@ public class Modules extends System<Modules> {
         add(new AutoFish());
         add(new AutoGap());
         add(new AutoMend());
-        // add(new AirJump());
-        // add(new Anchor());
-        // add(new AntiVoid());
+        // add(new AirJump());        // add(new AntiVoid());
         // add(new AutoJump());
         // add(new AutoWalk());
-        // add(new AutoWasp());
+            add(new Ambience()); // Necessario per evitare crash
+        add(new Velocity());
         // add(new Blink()); // ⚠️ Flagga anticheat
         // add(new BoatFly()); // ⚠️ Flagga anticheat
-        // add(new ClickTP()); // ⚠️ Flagga anticheat
+            add(new Scaffold());
         // add(new ElytraBoost());
         // add(new ElytraFly()); // ⚠️ Flagga anticheat
         // add(new EntityControl());
         // add(new EntitySpeed()); // ⚠️ Flagga anticheat
         // add(new FastClimb()); // ⚠️ Flagga anticheat
-        // add(new Flight()); // ⚠️ Flagga anticheat
+        add(new Flight()); // Necessario per evitare crash
         add(new GUIMove());
         // add(new HighJump()); // ⚠️ Flagga anticheat
         // add(new Jesus()); // ⚠️ Flagga anticheat
         // add(new LongJump()); // ⚠️ Flagga anticheat
         // add(new NoFall()); // ⚠️ Flagga anticheat
-        // add(new NoSlow());
+        add(new NoSlow()); // Necessario per evitare crash
         // add(new Parkour());
         // add(new ReverseStep());
         add(new SafeWalk());
-        // add(new Scaffold()); // ⚠️ Flagga anticheat
-        // add(new Slippy());
-        // add(new Sneak());
+        add(new Slippy());
+        add(new Sneak());
+        // add(new Speed()); // ⚠️ Flagga anticheat
+        add(new Sprint());
         // add(new Speed()); // ⚠️ Flagga anticheat
         // add(new Spider()); // ⚠️ Flagga anticheat
         // add(new Sprint());
@@ -476,6 +484,7 @@ public class Modules extends System<Modules> {
         // add(new Velocity()); // ⚠️ Flagga anticheat
     }
         private void initRender() {
+        add(new NoRender());
         add(new Blur());
         add(new BossStack());
         add(new Breadcrumbs());
@@ -485,14 +494,19 @@ public class Modules extends System<Modules> {
         add(new CityESP());
         add(new EntityOwner());
         add(new ESP());
-        // add(new Freecam()); // ⚠️ Flagga anticheat
-        // add(new Tracers()); // ⚠️ Flagga anticheat
+        add(new Freecam()); // Necessario per evitare crash
+        add(new FreeLook()); // Necessario per evitare crash
+        add(new Fullbright()); // Necessario per evitare crash
+        add(new WallHack());   // Necessario per evitare crash
+        add(new Xray());       // Necessario per evitare crash
+        add(new Tracers()); // ⚠️ Flagga anticheat
         // add(new Trail()); // ⚠️ Flagga anticheat
         // add(new Trajectories()); // ⚠️ Flagga anticheat
         // add(new TunnelESP()); // ⚠️ Flagga anticheat
         // add(new WallHack()); // ⚠️ Flagga anticheat
-        // add(new WaypointsModule()); // ⚠️ Flagga anticheat
+         add(new WaypointsModule()); // ⚠️ Flagga anticheat
     }
+    
     private void initWorld() {
         add(new AutoBreed());
         add(new AutoBrewer());
@@ -517,13 +531,15 @@ public class Modules extends System<Modules> {
         add(new Timer());
         add(new VeinMiner());
 
+        // Baritone-dependent modules: only add if Baritone is present
+        add(new StorageESP());
         if (BaritoneUtils.IS_AVAILABLE) {
             add(new Excavator());
             add(new InfinityMiner());
         }
     }
 
-    private void initMisc() {
+private void initMisc() {
         add(new AntiPacketKick());
         add(new AutoReconnect());
         add(new BetterBeacons());
