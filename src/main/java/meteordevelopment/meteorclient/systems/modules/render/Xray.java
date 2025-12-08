@@ -119,15 +119,18 @@ public class Xray extends Module {
         WallHack wallHack = Modules.get().get(WallHack.class);
         Xray xray = Modules.get().get(Xray.class);
 
-        // PATCH: Ignore Sodium/Iris checks for opacity
         if (wallHack.isActive() && wallHack.blocks.get().contains(state.getBlock())) {
+            if (MixinPlugin.isSodiumPresent || (MixinPlugin.isIrisPresent && IrisApi.getInstance().isShaderPackInUse())) return 0;
+
             int alpha;
+
             if (xray.isActive()) alpha = xray.opacity.get();
             else alpha = wallHack.opacity.get();
+
             return alpha;
         }
         else if (xray.isActive() && !wallHack.isActive() && xray.isBlocked(state.getBlock(), pos)) {
-            return xray.opacity.get();
+            return (MixinPlugin.isSodiumPresent || (MixinPlugin.isIrisPresent && IrisApi.getInstance().isShaderPackInUse())) ? 0 : xray.opacity.get();
         }
 
         return -1;
