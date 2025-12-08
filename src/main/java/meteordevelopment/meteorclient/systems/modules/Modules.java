@@ -490,6 +490,7 @@ public class Modules extends System<Modules> {
         add(new Breadcrumbs());
         add(new BreakIndicators());
             add(new BetterTab()); // Fix crash: must be registered
+            add(new BetterTooltips());
         add(new CameraTweaks());
         add(new Chams());
         add(new CityESP());
