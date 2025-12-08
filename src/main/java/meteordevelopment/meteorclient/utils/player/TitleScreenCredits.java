@@ -82,16 +82,9 @@ public class TitleScreenCredits {
     private static void add(MeteorAddon addon) {
         Credit credit = new Credit(addon);
 
-        credit.text.append(Text.literal(addon.name).styled(style -> style.withColor(addon.color.getPacked())));
-        credit.text.append(Text.literal(" by ").formatted(Formatting.GRAY));
+        credit.text.append(Text.literal("Donut Client").styled(style -> style.withColor(addon.color.getPacked())));
 
-        for (int i = 0; i < addon.authors.length; i++) {
-            if (i > 0) {
-                credit.text.append(Text.literal(i == addon.authors.length - 1 ? " & " : ", ").formatted(Formatting.GRAY));
-            }
 
-            credit.text.append(Text.literal(addon.authors[i]).formatted(Formatting.WHITE));
-        }
 
         credits.add(credit);
     }
