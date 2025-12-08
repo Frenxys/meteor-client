@@ -52,38 +52,17 @@ public class ChorusAreaDisplay extends Module {
     private void onRender(Render3DEvent event) {
         if (mc.player.getMainHandStack().getItem() != Items.CHORUS_FRUIT) return;
 
-        // Ottieni la posizione del giocatore
-        Vec3d playerPos = mc.player.getPos();
+        // Get the player's position as Vec3d
+        Vec3d playerPos = new Vec3d(mc.player.getX(), mc.player.getY(), mc.player.getZ());
 
-        // Calcola gli angoli dell'area 16x16x16
+        // Calculate the corners of the 16x16x16 area
         double x1 = playerPos.x - 8;
-         // Check if the player is holding a Chorus Fruit
-         if (mc.player.getMainHandStack().getItem() != Items.CHORUS_FRUIT) return;
-
-         // Get the player's position
-         Vec3d playerPos = mc.player.getPos();
-
-         // Calculate the corners of the 16x16x16 area
-         double x1 = playerPos.x - 8;
         double y1 = playerPos.y - 8;
         double z1 = playerPos.z - 8;
         double x2 = playerPos.x + 8;
         double y2 = playerPos.y + 8;
         double z2 = playerPos.z + 8;
 
-        SettingColor fill = invisible.get() ? new SettingColor(0, 0, 0, 0) : fillColor.get();
-        SettingColor outline = showOutline.get() ? outlineColor.get() : new SettingColor(0, 0, 0, 0);
-
-        // Renderizza l'area 16x16x16
-        event.renderer.box(
-            x1, y1, z1,  // Angolo inferiore sinistro
-            x2, y2, z2,  // Angolo superiore destro
-            fill,   // Colore del riempimento
-            outline, // Colore del contorno
-            ShapeMode.Both, // Mostra sia il riempimento che il contorno
-            0 // Nessun blocco da escludere
-        );
-        // Get the fill and outline colors
         SettingColor fill = invisible.get() ? new SettingColor(0, 0, 0, 0) : fillColor.get();
         SettingColor outline = showOutline.get() ? outlineColor.get() : new SettingColor(0, 0, 0, 0);
 

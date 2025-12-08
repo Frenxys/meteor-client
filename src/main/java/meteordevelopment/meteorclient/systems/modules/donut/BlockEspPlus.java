@@ -15,7 +15,6 @@ import meteordevelopment.orbit.EventHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gui.screen.DisconnectedScreen;
-import net.minecraft.client.gui.screen.DownloadingTerrainScreen;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.ChunkPos;
@@ -103,10 +102,7 @@ public class BlockEspPlus extends Module {
             ESPBLOCKS.clear();
             scannedChunks.clear();
         }
-        if (event.screen instanceof DownloadingTerrainScreen) {
-            ESPBLOCKS.clear();
-            scannedChunks.clear();
-        }
+
     }
 
     @EventHandler

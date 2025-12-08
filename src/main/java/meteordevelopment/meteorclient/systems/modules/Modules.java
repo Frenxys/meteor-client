@@ -21,6 +21,7 @@ import meteordevelopment.meteorclient.systems.System;
 import meteordevelopment.meteorclient.systems.Systems;
 import meteordevelopment.meteorclient.systems.config.Config;
 import meteordevelopment.meteorclient.systems.modules.combat.*;
+import meteordevelopment.meteorclient.systems.modules.donut.*;
 import meteordevelopment.meteorclient.systems.modules.misc.*;
 import meteordevelopment.meteorclient.systems.modules.misc.swarm.Swarm;
 import meteordevelopment.meteorclient.systems.modules.movement.*;
@@ -71,6 +72,7 @@ public class Modules extends System<Modules> {
 
     @Override
     public void init() {
+        initDonut();
         initCombat();
         initPlayer();
         initMovement();
@@ -567,7 +569,7 @@ public class Modules extends System<Modules> {
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BookBot());
-        
+
         add(new InventoryTweaks());
         add(new MessageAura());
         add(new Notebot());
