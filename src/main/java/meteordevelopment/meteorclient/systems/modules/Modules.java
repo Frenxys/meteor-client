@@ -380,7 +380,14 @@ public class Modules extends System<Modules> {
         // Register color settings for the module
         module.settings.registerColorSettings(module);
     }
-
+    private void initDonut() {
+        add(new AutoRTP());
+        add(new ChorusAreaDisplay());
+        add(new NoStrip());
+        add(new BetterPlace());
+        add(new BlockEspPlus());
+        add(new AutoFloat());
+    }
     private void initCombat() {
         add(new AnchorAura());
         add(new AntiAnvil());
@@ -560,7 +567,7 @@ public class Modules extends System<Modules> {
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BookBot());
-        add(new DiscordPresence());
+        
         add(new InventoryTweaks());
         add(new MessageAura());
         add(new Notebot());
