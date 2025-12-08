@@ -38,7 +38,7 @@ public class ChatUtils {
         PREFIX = Text.empty()
             .setStyle(Style.EMPTY.withFormatting(Formatting.GRAY))
             .append("[")
-            .append(Text.literal("Custom").setStyle(Style.EMPTY.withColor(TextColor.fromRgb(meteordevelopment.meteorclient.utils.render.color.Color.HUD_BLUE.getPacked()))))
+            .append(Text.literal("Donut").setStyle(Style.EMPTY.withColor(TextColor.fromRgb(meteordevelopment.meteorclient.utils.render.color.Color.HUD_BLUE.getPacked()))))
             .append("] ");
     }
 
