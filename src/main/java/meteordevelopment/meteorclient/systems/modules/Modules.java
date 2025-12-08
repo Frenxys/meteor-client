@@ -437,7 +437,8 @@ public class Modules extends System<Modules> {
         add(new EntityControl());
         add(new FastUse()); // Necessario per evitare crash
         // add(new Rotation()); // ⚠️ Flagga anticheat
-        // add(new SpeedMine()); // ⚠️ Flagga anticheat
+        add(new SpeedMine()); // ⚠️ Flagga anticheat
+        add(new BreakDelay()); // Fix crash: must be registered
     }
 
     private void initMovement() {
@@ -445,7 +446,7 @@ public class Modules extends System<Modules> {
         add(new AirJump());
         add(new Anchor());
         add(new AutoEat());
-        // add(new AutoClicker()); // ⚠️ Flagga anticheat
+            add(new SpeedMine()); // ⚠️ Flagga anticheat
         add(new AutoFish());
         add(new AutoGap());
         add(new AutoMend());
@@ -509,11 +510,14 @@ public class Modules extends System<Modules> {
          add(new WaypointsModule()); // ⚠️ Flagga anticheat
         add(new ItemHighlight()); // Fix crash: must be registered
     }
-    
+
     private void initWorld() {
         add(new AutoBreed());
         add(new AutoBrewer());
         add(new AutoMount());
+
+        add(new Nametags());
+
         add(new AutoNametag());
         add(new AutoShearer());
         add(new AutoSign());
@@ -543,6 +547,7 @@ public class Modules extends System<Modules> {
     }
 
 private void initMisc() {
+
         add(new AntiPacketKick());
         add(new AutoReconnect());
         add(new BetterBeacons());
