@@ -20,8 +20,6 @@ import java.util.Random;
 @Mixin(SplashTextResourceSupplier.class)
 public abstract class SplashTextResourceSupplierMixin {
     @Unique
-    private boolean override = true;
-    @Unique
     private static final Random random = new Random();
     @Unique
     private final List<String> meteorSplashes = getMeteorSplashes();
@@ -29,21 +27,14 @@ public abstract class SplashTextResourceSupplierMixin {
     @Inject(method = "get", at = @At("HEAD"), cancellable = true)
     private void onApply(CallbackInfoReturnable<SplashTextRenderer> cir) {
         if (Config.get() == null || !Config.get().titleScreenSplashes.get()) return;
-
-        if (override) cir.setReturnValue(new SplashTextRenderer(meteorSplashes.get(random.nextInt(meteorSplashes.size()))));
-        override = !override;
+        cir.setReturnValue(new SplashTextRenderer(meteorSplashes.get(random.nextInt(meteorSplashes.size()))));
     }
 
     @Unique
     private static List<String> getMeteorSplashes() {
         return List.of(
-                "Meteor on Crack!",
-                "Star Meteor Client on GitHub!",
-                "Based utility mod.",
-                "§6MineGame159 §fbased god",
-                "§4meteorclient.com",
-                "§4Meteor on Crack!",
-                "§6Meteor on Crack!"
+                "Dr Coconut",
+                "Donut Client"
         );
     }
 

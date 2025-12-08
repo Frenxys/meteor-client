@@ -394,109 +394,88 @@ public class Modules extends System<Modules> {
         add(new AnchorAura());
         add(new AntiAnvil());
         add(new AntiBed());
-        add(new ArrowDodge());
-        add(new AutoAnvil());
-        add(new AutoArmor());
-        add(new AutoCity());
-        add(new AutoEXP());
-        add(new AutoLog());
-        add(new AutoTotem());
-        add(new AutoTrap());
-        add(new AutoWeapon());
-        add(new AutoWeb());
-        add(new BedAura());
-        add(new BowAimbot());
-        add(new BowSpam());
-        add(new Burrow());
-        add(new Criticals());
-        add(new CrystalAura());
-        add(new Hitboxes());
-        add(new HoleFiller());
-        add(new KillAura());
-        add(new Offhand());
-        add(new Quiver());
-        add(new SelfAnvil());
-        add(new SelfTrap());
-        add(new SelfWeb());
-        add(new Surround());
+        // add(new ArrowDodge()); // ⚠️ Flagga anticheat
+        // add(new AutoAnvil()); // ⚠️ Flagga anticheat
+        // add(new AutoArmor()); // ⚠️ Flagga anticheat
+        // add(new AutoCity()); // ⚠️ Flagga anticheat
+        // add(new AutoEXP()); // ⚠️ Flagga anticheat
+        // add(new AutoLog()); // ⚠️ Flagga anticheat
+        // add(new AutoTotem()); // ⚠️ Flagga anticheat
+        // add(new AutoTrap()); // ⚠️ Flagga anticheat
+        // add(new AutoWeapon()); // ⚠️ Flagga anticheat
+        // add(new AutoWeb()); // ⚠️ Flagga anticheat
+        // add(new BedAura()); // ⚠️ Flagga anticheat
+        // add(new BowAimbot()); // ⚠️ Flagga anticheat
+        // add(new BowSpam()); // ⚠️ Flagga anticheat
+        // add(new Burrow()); // ⚠️ Flagga anticheat
+        // add(new Criticals()); // ⚠️ Flagga anticheat
+        // add(new CrystalAura()); // ⚠️ Flagga anticheat
+        // add(new Hitboxes()); // ⚠️ Flagga anticheat
+        // add(new HoleFiller()); // ⚠️ Flagga anticheat
+        // add(new KillAura()); // ⚠️ Flagga anticheat
+        // add(new Offhand()); // ⚠️ Flagga anticheat
+        // add(new Quiver()); // ⚠️ Flagga anticheat
+        // add(new SelfAnvil()); // ⚠️ Flagga anticheat
+        // add(new SelfTrap()); // ⚠️ Flagga anticheat
+        // add(new SelfWeb()); // ⚠️ Flagga anticheat
+        // add(new Surround()); // ⚠️ Flagga anticheat
     }
 
     private void initPlayer() {
         add(new AirPlace());
         add(new AntiAFK());
-        add(new AntiHunger());
-        add(new AutoEat());
-        add(new AutoClicker());
-        add(new AutoFish());
-        add(new AutoGap());
-        add(new AutoMend());
-        add(new AutoReplenish());
-        add(new AutoRespawn());
-        add(new AutoTool());
-        add(new BreakDelay());
-        add(new ChestSwap());
-        add(new EXPThrower());
-        add(new FakePlayer());
-        add(new FastUse());
-        add(new GhostHand());
-        add(new InstantRebreak());
-        add(new LiquidInteract());
-        add(new MiddleClickExtra());
-        add(new Multitask());
-        add(new NameProtect());
-        add(new NoInteract());
-        add(new NoMiningTrace());
-        add(new NoRotate());
-        add(new NoStatusEffects());
-        add(new OffhandCrash());
-        add(new Portals());
-        add(new PotionSaver());
-        add(new Reach());
-        add(new Rotation());
-        add(new SpeedMine());
+        // add(new Criticals()); // ⚠️ Flagga anticheat
+        // add(new KillAura()); // ⚠️ Flagga anticheat
+        // add(new Portals()); // ⚠️ Flagga anticheat
+        // add(new PotionSaver()); // ⚠️ Flagga anticheat
+        // add(new Reach()); // ⚠️ Flagga anticheat
+        // add(new Rotation()); // ⚠️ Flagga anticheat
+        // add(new SpeedMine()); // ⚠️ Flagga anticheat
     }
 
     private void initMovement() {
         add(new AirJump());
         add(new Anchor());
-        add(new AntiVoid());
-        add(new AutoJump());
-        add(new AutoWalk());
-        add(new AutoWasp());
-        add(new Blink());
-        add(new BoatFly());
-        add(new ClickTP());
-        add(new ElytraBoost());
-        add(new ElytraFly());
-        add(new EntityControl());
-        add(new EntitySpeed());
-        add(new FastClimb());
-        add(new Flight());
+        add(new AutoEat());
+        // add(new AutoClicker()); // ⚠️ Flagga anticheat
+        add(new AutoFish());
+        add(new AutoGap());
+        add(new AutoMend());
+        // add(new AirJump());
+        // add(new Anchor());
+        // add(new AntiVoid());
+        // add(new AutoJump());
+        // add(new AutoWalk());
+        // add(new AutoWasp());
+        // add(new Blink()); // ⚠️ Flagga anticheat
+        // add(new BoatFly()); // ⚠️ Flagga anticheat
+        // add(new ClickTP()); // ⚠️ Flagga anticheat
+        // add(new ElytraBoost());
+        // add(new ElytraFly()); // ⚠️ Flagga anticheat
+        // add(new EntityControl());
+        // add(new EntitySpeed()); // ⚠️ Flagga anticheat
+        // add(new FastClimb()); // ⚠️ Flagga anticheat
+        // add(new Flight()); // ⚠️ Flagga anticheat
         add(new GUIMove());
-        add(new HighJump());
-        add(new Jesus());
-        add(new LongJump());
-        add(new NoFall());
-        add(new NoSlow());
-        add(new Parkour());
-        add(new ReverseStep());
+        // add(new HighJump()); // ⚠️ Flagga anticheat
+        // add(new Jesus()); // ⚠️ Flagga anticheat
+        // add(new LongJump()); // ⚠️ Flagga anticheat
+        // add(new NoFall()); // ⚠️ Flagga anticheat
+        // add(new NoSlow());
+        // add(new Parkour());
+        // add(new ReverseStep());
         add(new SafeWalk());
-        add(new Scaffold());
-        add(new Slippy());
-        add(new Sneak());
-        add(new Speed());
-        add(new Spider());
-        add(new Sprint());
-        add(new Step());
-        add(new TridentBoost());
-        add(new Velocity());
+        // add(new Scaffold()); // ⚠️ Flagga anticheat
+        // add(new Slippy());
+        // add(new Sneak());
+        // add(new Speed()); // ⚠️ Flagga anticheat
+        // add(new Spider()); // ⚠️ Flagga anticheat
+        // add(new Sprint());
+        // add(new Step()); // ⚠️ Flagga anticheat
+        // add(new TridentBoost());
+        // add(new Velocity()); // ⚠️ Flagga anticheat
     }
-
-    private void initRender() {
-        add(new BetterTab());
-        add(new BetterTooltips());
-        add(new BlockESP());
-        add(new BlockSelection());
+        private void initRender() {
         add(new Blur());
         add(new BossStack());
         add(new Breadcrumbs());
@@ -506,34 +485,15 @@ public class Modules extends System<Modules> {
         add(new CityESP());
         add(new EntityOwner());
         add(new ESP());
-        add(new Freecam());
-        add(new FreeLook());
-        add(new Fullbright());
-        add(new HandView());
-        add(new HoleESP());
-        add(new ItemPhysics());
-        add(new ItemHighlight());
-        add(new LightOverlay());
-        add(new LogoutSpots());
-        add(new Marker());
-        add(new Nametags());
-        add(new NoRender());
-        add(new PopChams());
-        add(new StorageESP());
-        add(new TimeChanger());
-        add(new Tracers());
-        add(new Trail());
-        add(new Trajectories());
-        add(new TunnelESP());
-        add(new VoidESP());
-        add(new WallHack());
-        add(new WaypointsModule());
-        add(new Xray());
-        add(new Zoom());
+        // add(new Freecam()); // ⚠️ Flagga anticheat
+        // add(new Tracers()); // ⚠️ Flagga anticheat
+        // add(new Trail()); // ⚠️ Flagga anticheat
+        // add(new Trajectories()); // ⚠️ Flagga anticheat
+        // add(new TunnelESP()); // ⚠️ Flagga anticheat
+        // add(new WallHack()); // ⚠️ Flagga anticheat
+        // add(new WaypointsModule()); // ⚠️ Flagga anticheat
     }
-
     private void initWorld() {
-        add(new Ambience());
         add(new AutoBreed());
         add(new AutoBrewer());
         add(new AutoMount());
@@ -550,7 +510,7 @@ public class Modules extends System<Modules> {
         add(new LiquidFiller());
         add(new MountBypass());
         add(new NoGhostBlocks());
-        add(new Nuker());
+        // add(new Nuker()); // ⚠️ Flagga anticheat
         add(new PacketMine());
         add(new StashFinder());
         add(new SpawnProofer());
