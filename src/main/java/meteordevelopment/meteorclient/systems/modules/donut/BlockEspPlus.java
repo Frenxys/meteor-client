@@ -1,4 +1,4 @@
-package meteordevelopment.meteorclient.systems.modules.wgf;
+package meteordevelopment.meteorclient.systems.modules.donut;
 
 import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
@@ -31,14 +31,14 @@ import java.util.Set;
 public class BlockEspPlus extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private final SettingGroup sgRender = settings.createGroup("Render");
-    private final Setting<List<Block>> Blawcks = sgGeneral.add(new BlockListSetting.Builder()
-        .name("Blocchi Da Cercare")
-        .description("Trova questi blocchi.")
+    private final Setting<List<Block>> blocksToSearch = sgGeneral.add(new BlockListSetting.Builder()
+        .name("Blocks To Search")
+        .description("Find these blocks.")
         .build()
     );
-    private final Setting<Integer> tickdelay = sgGeneral.add(new IntSetting.Builder()
-        .name("Ritardo Scansione Chunk")
-        .description("Ritardo tra le scansioni dei chunk")
+    private final Setting<Integer> tickDelay = sgGeneral.add(new IntSetting.Builder()
+        .name("Chunk Scan Delay")
+        .description("Delay between chunk scans")
         .min(0)
         .sliderRange(0, 200)
         .defaultValue(5)
@@ -46,8 +46,8 @@ public class BlockEspPlus extends Module {
     );
     // render
     public final Setting<Integer> renderDistance = sgRender.add(new IntSetting.Builder()
-        .name("Distanza-Render(Chunk)")
-        .description("Quanti chunk dal personaggio per renderizzare i blocchi rilevati.")
+        .name("Render-Distance(Chunk)")
+        .description("How many chunks from the player to render detected blocks.")
         .defaultValue(24)
         .min(1)
         .sliderRange(1, 256)
@@ -55,23 +55,23 @@ public class BlockEspPlus extends Module {
     );
 
     private final Setting<ShapeMode> shapeMode = sgRender.add(new EnumSetting.Builder<ShapeMode>()
-        .name("modo-forma")
-        .description("Come vengono renderizzate le forme.")
+        .name("shape-mode")
+        .description("How shapes are rendered.")
         .defaultValue(ShapeMode.Both)
         .build()
     );
 
     private final Setting<SettingColor> ESPBLOCKSLineColor = sgRender.add(new ColorSetting.Builder()
-        .name("ColoreLineaBloccoESP")
-        .description("ColoreLineaBloccoESP")
+        .name("BlockESPLineColor")
+        .description("BlockESPLineColor")
         .defaultValue(new SettingColor(255, 0, 0, 95))
         .visible(() -> (shapeMode.get() == ShapeMode.Sides || shapeMode.get() == ShapeMode.Both))
         .build()
     );
 
     private final Setting<SettingColor> ESPBLOCKSSideColor = sgRender.add(new ColorSetting.Builder()
-        .name("ColoreLatoBloccoESP")
-        .description("ColoreLatoBloccoESP")
+        .name("BlockESPSideColor")
+        .description("BlockESPSideColor")
         .defaultValue(new SettingColor(255, 0, 0, 35))
         .visible(() -> (shapeMode.get() == ShapeMode.Lines || shapeMode.get() == ShapeMode.Both))
         .build()
@@ -82,7 +82,7 @@ public class BlockEspPlus extends Module {
     private int ticks = 0;
 
     public BlockEspPlus() {
-        super(Categories.WGFUtility, "BlockEspPlus", "Cerca i blocchi e renderizza un overlay dove si trovano.");
+        super(Categories.Donut, "BlockEspPlus", "Searches for blocks and renders an overlay where they are located.");
     }
 
     @Override
@@ -145,7 +145,7 @@ public class BlockEspPlus extends Module {
     private void onTick(TickEvent.Pre event) {
         if (mc.world == null) return;
         ticks++;
-        if (ticks >= tickdelay.get()) {
+        if (ticks >= tickDelay.get()) {
             for (Chunk chunk : Utils.chunks()) {
                 ChunkPos chunkPos = chunk.getPos();
                 if (scannedChunks.contains(chunkPos)) continue;
@@ -167,7 +167,7 @@ public class BlockEspPlus extends Module {
                                     int currentY = baseY + y;
                                     BlockPos blockPos = new BlockPos(chunkX + x, currentY, chunkZ + z);
                                     BlockState blockState = section.getBlockState(x, y, z);
-                                    if (Blawcks.get().contains(blockState.getBlock())) {
+                                    if (blocksToSearch.get().contains(blockState.getBlock())) {
                                         ESPBLOCKS.add(blockPos);
                                     }
                                 }

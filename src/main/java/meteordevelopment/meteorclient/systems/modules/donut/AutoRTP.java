@@ -1,4 +1,4 @@
-package meteordevelopment.meteorclient.systems.modules.wgf;
+package meteordevelopment.meteorclient.systems.modules.donut;
 
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.IntSetting;
@@ -10,16 +10,16 @@ import meteordevelopment.orbit.EventHandler;
 import net.minecraft.client.network.ClientPlayerEntity;
 
 public class AutoRTP extends Module {
-    private final SettingGroup sgGenerale = settings.getDefaultGroup();
+    private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private int timer;
 
     public AutoRTP() {
-        super(Categories.WGFGrief, "Auto-RTP", "Trova automaticamente le basi sul server WGF.");
+        super(Categories.Donut, "Auto-RTP", "Automatically finds bases on the WGF server.");
     }
 
-    private final Setting<Integer> ritardo = sgGenerale.add(new IntSetting.Builder()
-        .name("ritardo")
-        .description("Ritardo per ogni RTP in secondi")
+    private final Setting<Integer> delay = sgGeneral.add(new IntSetting.Builder()
+        .name("delay")
+        .description("Delay for each RTP in seconds")
         .defaultValue(2)
         .min(0)
         .max(10)
@@ -28,32 +28,32 @@ public class AutoRTP extends Module {
 
     @Override
     public void onActivate() {
-        // Inizializza il timer
+        // Initialize the timer
         timer = 0;
     }
 
     @Override
     public void onDeactivate() {
-        // Resetta il timer alla disattivazione del modulo
+        // Reset the timer when the module is deactivated
         timer = 0;
     }
 
     @EventHandler
     private void onTick(TickEvent.Post event) {
-        ClientPlayerEntity giocatore = mc.player;
+        ClientPlayerEntity player = mc.player;
 
-        if (giocatore == null) return;  // Controlla se il giocatore è nullo
+        if (player == null) return;  // Check if the player is null
 
         if (timer > 0) {
-            timer--;  // Decrementa il timer se è maggiore di 0
+            timer--;  // Decrement the timer if it's greater than 0
             return;
         }
 
-        // Esegui il comando /rtp
+        // Execute the /rtp command
         mc.player.networkHandler.sendChatCommand("rtp");
 
-        // Aggiorna il timer
-        timer = (ritardo.get() + 3) * 20;  // 20 tick al secondo * (ritardo + 3) secondi
+        // Update the timer
+        timer = (delay.get() + 3) * 20;  // 20 ticks per second * (delay + 3) seconds
     }
 
     public void disabilita() {

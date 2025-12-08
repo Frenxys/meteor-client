@@ -1,4 +1,4 @@
-package meteordevelopment.meteorclient.systems.modules.wgf;
+package meteordevelopment.meteorclient.systems.modules.donut;
 
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -16,51 +16,51 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 
 public class BetterPlace extends Module {
-    private final SettingGroup sgGenerale = settings.getDefaultGroup();
-    private final SettingGroup sgRaggio = settings.createGroup("Raggio");
+    private final SettingGroup sgGeneral = settings.getDefaultGroup();
+    private final SettingGroup sgRange = settings.createGroup("Range");
 
-    // Generale
+    // General
 
-    private final Setting<Boolean> render = sgGenerale.add(new BoolSetting.Builder()
+    private final Setting<Boolean> render = sgGeneral.add(new BoolSetting.Builder()
         .name("render")
-        .description("Rende un'overlay del blocco dove il blocco sarà posizionato.")
+        .description("Renders an overlay of the block where it will be placed.")
         .defaultValue(true)
         .build()
     );
 
-    private final Setting<ShapeMode> shapeMode = sgGenerale.add(new EnumSetting.Builder<ShapeMode>()
-        .name("modalità-forma")
-        .description("Come vengono renderizzate le forme.")
+    private final Setting<ShapeMode> shapeMode = sgGeneral.add(new EnumSetting.Builder<ShapeMode>()
+        .name("shape-mode")
+        .description("How shapes are rendered.")
         .defaultValue(ShapeMode.Both)
         .build()
     );
 
-    private final Setting<SettingColor> sideColor = sgGenerale.add(new ColorSetting.Builder()
-        .name("colore-lato")
-        .description("Il colore dei lati dei blocchi renderizzati.")
+    private final Setting<SettingColor> sideColor = sgGeneral.add(new ColorSetting.Builder()
+        .name("side-color")
+        .description("The color of the sides of rendered blocks.")
         .defaultValue(new SettingColor(146, 188, 98, 75))
         .build()
     );
 
-    private final Setting<SettingColor> lineColor = sgGenerale.add(new ColorSetting.Builder()
-        .name("colore-linea")
-        .description("Il colore delle linee dei blocchi renderizzati.")
+    private final Setting<SettingColor> lineColor = sgGeneral.add(new ColorSetting.Builder()
+        .name("line-color")
+        .description("The color of the lines of rendered blocks.")
         .defaultValue(new SettingColor(146, 188, 98, 255))
         .build()
     );
 
-    // Raggio
+    // Range
 
-    private final Setting<Boolean> customRange = sgRaggio.add(new BoolSetting.Builder()
-        .name("raggio-personalizzato")
-        .description("Usa un raggio personalizzato per il miglior posizionamento.")
+    private final Setting<Boolean> customRange = sgRange.add(new BoolSetting.Builder()
+        .name("custom-range")
+        .description("Use a custom range for better placement.")
         .defaultValue(false)
         .build()
     );
 
-    private final Setting<Double> range = sgRaggio.add(new DoubleSetting.Builder()
-        .name("raggio")
-        .description("Raggio personalizzato per posizionare.")
+    private final Setting<Double> range = sgRange.add(new DoubleSetting.Builder()
+        .name("range")
+        .description("Custom range for placement.")
         .visible(customRange::get)
         .defaultValue(5)
         .min(0)
@@ -71,14 +71,14 @@ public class BetterPlace extends Module {
     private HitResult hitResult;
 
     public BetterPlace() {
-        super(Categories.WGFUtility, "BetterPlace", "Ti aiuta a posizionare blocchi dove normalmente non puoi");
+        super(Categories.Donut, "BetterPlace", "Helps you place blocks where you normally can't");
     }
 
     @EventHandler
     private void onTick(TickEvent.Post event) {
         setHitResult();
         if (hitResult instanceof BlockHitResult && mc.player.getMainHandStack().getItem() instanceof BlockItem && mc.options.useKey.isPressed()) {
-            BlockUtils.place(((BlockHitResult) hitResult).getBlockPos(), Hand.MAIN_HAND, mc.player.getInventory().selectedSlot, false, 0, true, true, false);
+            BlockUtils.place(((BlockHitResult) hitResult).getBlockPos(), Hand.MAIN_HAND, mc.player.getInventory().getSelectedSlot(), false, 0, true, true, false);
         }
     }
 

@@ -16,13 +16,16 @@ public class Categories {
     public static final Category Render = new Category("Render", Items.GLASS.getDefaultStack());
     public static final Category World = new Category("World", Items.GRASS_BLOCK.getDefaultStack());
     public static final Category Misc = new Category("Misc", Items.LAVA_BUCKET.getDefaultStack());
+    public static final Category Donut= new Category("Donut", Items.IRON_INGOT.getDefaultStack());
 
     public static boolean REGISTERING;
+
 
     public static void init() {
         REGISTERING = true;
 
         // Meteor
+        Modules.registerCategory(Donut);
         Modules.registerCategory(Combat);
         Modules.registerCategory(Player);
         Modules.registerCategory(Movement);
