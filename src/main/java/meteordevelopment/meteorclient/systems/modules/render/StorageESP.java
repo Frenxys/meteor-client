@@ -62,7 +62,7 @@ public class StorageESP extends Module {
     private final Setting<Boolean> tracers = sgGeneral.add(new BoolSetting.Builder()
         .name("tracers")
         .description("Draws tracers to storage blocks.")
-        .defaultValue(false)
+        .defaultValue(true)
         .build()
     );
 

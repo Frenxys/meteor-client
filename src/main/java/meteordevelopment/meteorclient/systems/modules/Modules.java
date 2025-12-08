@@ -506,6 +506,7 @@ public class Modules extends System<Modules> {
         // add(new TunnelESP()); // ⚠️ Flagga anticheat
         // add(new WallHack()); // ⚠️ Flagga anticheat
          add(new WaypointsModule()); // ⚠️ Flagga anticheat
+        add(new ItemHighlight()); // Fix crash: must be registered
     }
     
     private void initWorld() {
