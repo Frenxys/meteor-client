@@ -31,6 +31,7 @@ public class Color implements ICopyable<Color>, ISerializable<Color> {
     public static final Color MAGENTA = new Color(java.awt.Color.MAGENTA);
     public static final Color CYAN = new Color(java.awt.Color.CYAN);
     public static final Color BLUE = new Color(java.awt.Color.BLUE);
+    public static final Color HUD_BLUE = new Color(25, 125, 225);
 
     public int r, g, b, a;
 
