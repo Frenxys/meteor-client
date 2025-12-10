@@ -16,6 +16,7 @@ import meteordevelopment.meteorclient.mixin.EntityBucketItemAccessor;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Categories;
 import meteordevelopment.meteorclient.systems.modules.Module;
+import meteordevelopment.meteorclient.systems.modules.donut.ItemPriceTooltip;
 import meteordevelopment.meteorclient.utils.Utils;
 import meteordevelopment.meteorclient.utils.misc.ByteCountDataOutput;
 import meteordevelopment.meteorclient.utils.misc.Keybind;
@@ -235,6 +236,7 @@ public class BetterTooltips extends Module {
 
     public BetterTooltips() {
         super(Categories.Render, "better-tooltips", "Displays more useful tooltips for certain items.");
+        ItemPriceTooltip.init(); // Ensure price data is loaded
     }
 
     @EventHandler
@@ -310,6 +312,9 @@ public class BetterTooltips extends Module {
 
         // Hold to preview tooltip
         appendPreviewTooltipText(event, true);
+
+        ItemPriceTooltip priceTooltip = new ItemPriceTooltip();
+        priceTooltip.onTooltip(event);
     }
 
     @EventHandler

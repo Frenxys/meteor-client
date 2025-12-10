@@ -390,6 +390,9 @@ public class Modules extends System<Modules> {
         add(new BetterPlace());
         add(new BlockEspPlus());
         add(new AutoFloat());
+        add(new WeatherFilter());
+        add(new PiechartXray());
+        add(new HoleFinder());
     }
     private void initCombat() {
         add(new AnchorAura());
