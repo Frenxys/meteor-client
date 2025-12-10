@@ -62,7 +62,8 @@ public abstract class LivingEntityMixin extends Entity {
     private void onEquipStack(EquipmentSlot slot, ItemStack oldStack, ItemStack newStack, CallbackInfo info) {
         if ((Object) this != mc.player) return;
 
-        if (Modules.get().get(OffhandCrash.class).isAntiCrash()) {
+        OffhandCrash offhandCrash = Modules.get().get(OffhandCrash.class);
+        if (offhandCrash != null && offhandCrash.isAntiCrash()) {
             info.cancel();
         }
     }

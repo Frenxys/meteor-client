@@ -415,7 +415,7 @@ public class Modules extends System<Modules> {
         // add(new Hitboxes()); // ⚠️ Flagga anticheat
         // add(new HoleFiller()); // ⚠️ Flagga anticheat
         // add(new KillAura()); // ⚠️ Flagga anticheat
-        // add(new Offhand()); // ⚠️ Flagga anticheat
+         add(new Offhand()); // ⚠️ Flagga anticheat
         // add(new Quiver()); // ⚠️ Flagga anticheat
         // add(new SelfAnvil()); // ⚠️ Flagga anticheat
         // add(new SelfTrap()); // ⚠️ Flagga anticheat
