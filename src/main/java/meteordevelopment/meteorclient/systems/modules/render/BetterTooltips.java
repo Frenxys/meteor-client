@@ -349,10 +349,26 @@ public class BetterTooltips extends Module {
 
         loadPrices();
         String itemKey = net.minecraft.registry.Registries.ITEM.getId(event.itemStack().getItem()).toString();
-        if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Item hovered: " + itemKey), false);
         if (ITEM_PRICES.containsKey(itemKey)) {
             double price = ITEM_PRICES.get(itemKey);
-            event.appendEnd(net.minecraft.text.Text.literal("ah price: " + price).formatted(net.minecraft.util.Formatting.GOLD));
+            String priceStr = String.format("%.1f", price) + " $";
+            event.appendEnd(
+                net.minecraft.text.Text.literal("")
+                    .append(net.minecraft.text.Text.literal("Ah Price: ").formatted(net.minecraft.util.Formatting.GOLD, net.minecraft.util.Formatting.BOLD))
+                    .append(net.minecraft.text.Text.literal(priceStr).formatted(net.minecraft.util.Formatting.YELLOW, net.minecraft.util.Formatting.BOLD))
+            );
+
+                // Show stack value if stackable
+                int maxStackSize = event.itemStack().getMaxCount();
+                if (maxStackSize > 1) {
+                    double stackValue = price * maxStackSize;
+                    String stackStr = String.format("%.1f", stackValue) + " $";
+                    event.appendEnd(
+                        net.minecraft.text.Text.literal("")
+                            .append(net.minecraft.text.Text.literal("Stack Value: ").formatted(net.minecraft.util.Formatting.GOLD, net.minecraft.util.Formatting.BOLD))
+                            .append(net.minecraft.text.Text.literal(stackStr).formatted(net.minecraft.util.Formatting.YELLOW, net.minecraft.util.Formatting.BOLD))
+                    );
+                }
         }
     }
 
