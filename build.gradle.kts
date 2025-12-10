@@ -91,6 +91,9 @@ dependencies {
     modCompileOnly(libs.baritone)
     modCompileOnly(libs.modmenu)
 
+    // DonutMoneyViewer API JSON
+    implementation("org.json:json:20231013")
+
     // Libraries (JAR-in-JAR)
     jij(libs.orbit)
     jij(libs.starscript)

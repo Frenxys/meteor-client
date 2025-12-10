@@ -243,7 +243,7 @@ public class BetterTooltips extends Module {
     private static boolean pricesLoaded = false;
 
     public BetterTooltips() {
-        super(Categories.Render, "better-tooltips", "Displays more useful tooltips for certain items.");
+        super(Categories.Donut, "better-tooltips", "Displays more useful tooltips for certain items.");
         if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Modulo caricato!"), false);
         System.out.println("[BetterTooltips] Modulo caricato!");
         loadPrices();

@@ -7,6 +7,7 @@ package meteordevelopment.meteorclient.systems.modules;
 
 import it.unimi.dsi.fastutil.objects.Reference2ReferenceOpenHashMap;
 import meteordevelopment.meteorclient.MeteorClient;
+import meteordevelopment.meteorclient.addons.donut.DonutMoneyViewer;
 import meteordevelopment.meteorclient.events.game.GameJoinedEvent;
 import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
@@ -393,6 +394,7 @@ public class Modules extends System<Modules> {
         add(new WeatherFilter());
         add(new PiechartXray());
         add(new HoleFinder());
+        add(new DonutMoneyViewer());
     }
     private void initCombat() {
         add(new AnchorAura());
