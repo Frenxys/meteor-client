@@ -5,6 +5,8 @@
 
 package meteordevelopment.meteorclient.systems.modules.render;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.mojang.serialization.DataResult;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
@@ -16,7 +18,6 @@ import meteordevelopment.meteorclient.mixin.EntityBucketItemAccessor;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Categories;
 import meteordevelopment.meteorclient.systems.modules.Module;
-import meteordevelopment.meteorclient.systems.modules.donut.ItemPriceTooltip;
 import meteordevelopment.meteorclient.utils.Utils;
 import meteordevelopment.meteorclient.utils.misc.ByteCountDataOutput;
 import meteordevelopment.meteorclient.utils.misc.Keybind;
@@ -49,8 +50,12 @@ import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Formatting;
 
+import java.io.InputStreamReader;
+import java.lang.reflect.Type;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Consumer;
 
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_LEFT_ALT;
@@ -234,9 +239,38 @@ public class BetterTooltips extends Module {
     private static final ItemStack[] PREVIEW = new ItemStack[27];
     private static final ItemStack[] PEEK_SCREEN = new ItemStack[27];
 
+    public static final Map<String, Double> ITEM_PRICES = new HashMap<>();
+    private static boolean pricesLoaded = false;
+
     public BetterTooltips() {
         super(Categories.Render, "better-tooltips", "Displays more useful tooltips for certain items.");
-        ItemPriceTooltip.init(); // Ensure price data is loaded
+        if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Modulo caricato!"), false);
+        System.out.println("[BetterTooltips] Modulo caricato!");
+        loadPrices();
+    }
+
+    private void loadPrices() {
+        if (pricesLoaded) return;
+        pricesLoaded = true;
+        try {
+            InputStreamReader reader = new InputStreamReader(BetterTooltips.class.getClassLoader().getResourceAsStream("items.json"));
+            Type listType = new TypeToken<List<ItemPriceEntry>>(){}.getType();
+            List<ItemPriceEntry> entries = new Gson().fromJson(reader, listType);
+            for (ItemPriceEntry entry : entries) {
+                // Prepend 'minecraft:' if non presente
+                String key = entry.itemName.contains(":") ? entry.itemName : "minecraft:" + entry.itemName;
+                ITEM_PRICES.put(key, entry.value);
+            }
+            if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Loaded " + ITEM_PRICES.size() + " item prices."), false);
+        } catch (Exception e) {
+            if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Failed to load item prices: " + e.getMessage()), false);
+            else System.out.println("[BetterTooltips] Failed to load item prices: " + e.getMessage());
+        }
+    }
+
+    private static class ItemPriceEntry {
+        public String itemName;
+        public double value;
     }
 
     @EventHandler
@@ -313,8 +347,13 @@ public class BetterTooltips extends Module {
         // Hold to preview tooltip
         appendPreviewTooltipText(event, true);
 
-        ItemPriceTooltip priceTooltip = new ItemPriceTooltip();
-        priceTooltip.onTooltip(event);
+        loadPrices();
+        String itemKey = net.minecraft.registry.Registries.ITEM.getId(event.itemStack().getItem()).toString();
+        if (mc.player != null) mc.player.sendMessage(net.minecraft.text.Text.literal("[BetterTooltips] Item hovered: " + itemKey), false);
+        if (ITEM_PRICES.containsKey(itemKey)) {
+            double price = ITEM_PRICES.get(itemKey);
+            event.appendEnd(net.minecraft.text.Text.literal("ah price: " + price).formatted(net.minecraft.util.Formatting.GOLD));
+        }
     }
 
     @EventHandler

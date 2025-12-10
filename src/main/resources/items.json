@@ -1,0 +1,2882 @@
+[
+  {
+    "id": 240,
+    "itemName": "deepslate_diamond_ore",
+    "value": 12043.122530640945
+  },
+  {
+    "id": 241,
+    "itemName": "diamond_chestplate",
+    "value": 244660.53692973184
+  },
+  {
+    "id": 242,
+    "itemName": "chainmail_boots",
+    "value": 2683.0463511247062
+  },
+  {
+    "id": 243,
+    "itemName": "rail",
+    "value": 700.5729173371135
+  },
+  {
+    "id": 244,
+    "itemName": "scaffolding",
+    "value": 483.59652039728206
+  },
+  {
+    "id": 245,
+    "itemName": "golden_hoe",
+    "value": 27742.24
+  },
+  {
+    "id": 246,
+    "itemName": "magenta_dye",
+    "value": 645.7712082220492
+  },
+  {
+    "id": 247,
+    "itemName": "red_stained_glass",
+    "value": 1305.6628606990914
+  },
+  {
+    "id": 248,
+    "itemName": "diamond_leggings",
+    "value": 58671.73405
+  },
+  {
+    "id": 249,
+    "itemName": "lava_bucket",
+    "value": 8427.034488780508
+  },
+  {
+    "id": 250,
+    "itemName": "netherite_boots",
+    "value": 3383272.706283882
+  },
+  {
+    "id": 251,
+    "itemName": "diamond_sword",
+    "value": 149800.025
+  },
+  {
+    "id": 255,
+    "itemName": "blast_furnace",
+    "value": 28899.921407493406
+  },
+  {
+    "id": 256,
+    "itemName": "quartz_slab",
+    "value": 20941.625289999993
+  },
+  {
+    "id": 257,
+    "itemName": "emerald_block",
+    "value": 27399.073963650422
+  },
+  {
+    "id": 258,
+    "itemName": "green_stained_glass",
+    "value": 1546.4226915757736
+  },
+  {
+    "id": 259,
+    "itemName": "wheat_seeds",
+    "value": 390.07899780300426
+  },
+  {
+    "id": 260,
+    "itemName": "red_shulker_box",
+    "value": 29312.483908767288
+  },
+  {
+    "id": 261,
+    "itemName": "smooth_stone",
+    "value": 730.4902679193689
+  },
+  {
+    "id": 263,
+    "itemName": "shulker_box",
+    "value": 59000
+  },
+  {
+    "id": 264,
+    "itemName": "yellow_dye",
+    "value": 957.628902087671
+  },
+  {
+    "id": 265,
+    "itemName": "netherite_chestplate",
+    "value": 680000
+  },
+  {
+    "id": 266,
+    "itemName": "diamond_axe",
+    "value": 160029.79409542232
+  },
+  {
+    "id": 267,
+    "itemName": "waxed_copper_bulb",
+    "value": 14271.795266357653
+  },
+  {
+    "id": 268,
+    "itemName": "diamond_shovel",
+    "value": 46350.00242999999
+  },
+  {
+    "id": 270,
+    "itemName": "diamond_pickaxe",
+    "value": 35809.559574796716
+  },
+  {
+    "id": 271,
+    "itemName": "magenta_stained_glass",
+    "value": 1071.7862045161694
+  },
+  {
+    "id": 273,
+    "itemName": "crafter",
+    "value": 10845.447370730099
+  },
+  {
+    "id": 278,
+    "itemName": "lead",
+    "value": 7702.034372173816
+  },
+  {
+    "id": 279,
+    "itemName": "diamond_boots",
+    "value": 163584.04848283427
+  },
+  {
+    "id": 283,
+    "itemName": "horn_coral_block",
+    "value": 1424.3381580766732
+  },
+  {
+    "id": 284,
+    "itemName": "netherite_leggings",
+    "value": 300000
+  },
+  {
+    "id": 286,
+    "itemName": "light_blue_shulker_box",
+    "value": 72221.09940699999
+  },
+  {
+    "id": 288,
+    "itemName": "dark_oak_button",
+    "value": 3053.9105017862616
+  },
+  {
+    "id": 292,
+    "itemName": "golden_shovel",
+    "value": 27525.92
+  },
+  {
+    "id": 293,
+    "itemName": "target",
+    "value": 25262.705848883445
+  },
+  {
+    "id": 296,
+    "itemName": "enchanting_table",
+    "value": 76266.62340662847
+  },
+  {
+    "id": 297,
+    "itemName": "yellow_wool",
+    "value": 16491.695
+  },
+  {
+    "id": 298,
+    "itemName": "smithing_table",
+    "value": 29497.54494318743
+  },
+  {
+    "id": 300,
+    "itemName": "white_shulker_box",
+    "value": 47660.674180798786
+  },
+  {
+    "id": 301,
+    "itemName": "brown_bed",
+    "value": 32578.556309117404
+  },
+  {
+    "id": 302,
+    "itemName": "red_dye",
+    "value": 174.11612291380155
+  },
+  {
+    "id": 304,
+    "itemName": "diamond_helmet",
+    "value": 87999.1916011117
+  },
+  {
+    "id": 307,
+    "itemName": "purple_bed",
+    "value": 29498.207042720995
+  },
+  {
+    "id": 308,
+    "itemName": "cobweb",
+    "value": 2799.653696143337
+  },
+  {
+    "id": 312,
+    "itemName": "tall_grass",
+    "value": 299391.2385717487
+  },
+  {
+    "id": 313,
+    "itemName": "cooked_beef",
+    "value": 207.60416424536365
+  },
+  {
+    "id": 314,
+    "itemName": "sugar_cane",
+    "value": 239.01011392697487
+  },
+  {
+    "id": 315,
+    "itemName": "fishing_rod",
+    "value": 56284.6021
+  },
+  {
+    "id": 317,
+    "itemName": "white_wool",
+    "value": 958.9406292557671
+  },
+  {
+    "id": 318,
+    "itemName": "warped_nylium",
+    "value": 782.4566687914033
+  },
+  {
+    "id": 320,
+    "itemName": "prismarine_bricks",
+    "value": 2190.591272360443
+  },
+  {
+    "id": 325,
+    "itemName": "crimson_roots",
+    "value": 157.80563329621685
+  },
+  {
+    "id": 326,
+    "itemName": "dark_oak_boat",
+    "value": 6779.823856999999
+  },
+  {
+    "id": 328,
+    "itemName": "leather_chestplate",
+    "value": 350864.18
+  },
+  {
+    "id": 330,
+    "itemName": "ominous_bottle",
+    "value": 62197.148096524106
+  },
+  {
+    "id": 331,
+    "itemName": "kelp",
+    "value": 91.16829923996364
+  },
+  {
+    "id": 332,
+    "itemName": "torch",
+    "value": 717.0623736500837
+  },
+  {
+    "id": 334,
+    "itemName": "blackstone",
+    "value": 1064.8919316675942
+  },
+  {
+    "id": 335,
+    "itemName": "gold_block",
+    "value": 17300.179690923767
+  },
+  {
+    "id": 336,
+    "itemName": "lectern",
+    "value": 53090.23525698204
+  },
+  {
+    "id": 337,
+    "itemName": "purple_dye",
+    "value": 1569.4827881339509
+  },
+  {
+    "id": 338,
+    "itemName": "echo_shard",
+    "value": 34597.51792001352
+  },
+  {
+    "id": 339,
+    "itemName": "mace",
+    "value": 4718622.23
+  },
+  {
+    "id": 341,
+    "itemName": "gravel",
+    "value": 479.0122202540409
+  },
+  {
+    "id": 344,
+    "itemName": "lantern",
+    "value": 4689057.219776014
+  },
+  {
+    "id": 345,
+    "itemName": "iron_axe",
+    "value": 8227.730097938238
+  },
+  {
+    "id": 346,
+    "itemName": "snow_block",
+    "value": 492.5050012868714
+  },
+  {
+    "id": 349,
+    "itemName": "ghast_tear",
+    "value": 4163.206556
+  },
+  {
+    "id": 350,
+    "itemName": "yellow_banner",
+    "value": 188477.12140505196
+  },
+  {
+    "id": 351,
+    "itemName": "wooden_axe",
+    "value": 0
+  },
+  {
+    "id": 352,
+    "itemName": "spruce_door",
+    "value": 4286.59850717906
+  },
+  {
+    "id": 354,
+    "itemName": "netherite_helmet",
+    "value": 3756514.555399123
+  },
+  {
+    "id": 355,
+    "itemName": "sweet_berries",
+    "value": 32.33882490183151
+  },
+  {
+    "id": 356,
+    "itemName": "composter",
+    "value": 14949.477055568572
+  },
+  {
+    "id": 358,
+    "itemName": "tipped_arrow",
+    "value": 2346.097600536881
+  },
+  {
+    "id": 359,
+    "itemName": "oak_sign",
+    "value": 1819.9891151427037
+  },
+  {
+    "id": 361,
+    "itemName": "jukebox",
+    "value": 49902.77608555415
+  },
+  {
+    "id": 363,
+    "itemName": "deepslate_redstone_ore",
+    "value": 2246.932217196001
+  },
+  {
+    "id": 364,
+    "itemName": "deepslate_iron_ore",
+    "value": 5824.314135919627
+  },
+  {
+    "id": 365,
+    "itemName": "blue_stained_glass",
+    "value": 937.7532546031711
+  },
+  {
+    "id": 368,
+    "itemName": "trident",
+    "value": 7796576.940731669
+  },
+  {
+    "id": 370,
+    "itemName": "netherite_pickaxe",
+    "value": 3721246.2854397492
+  },
+  {
+    "id": 371,
+    "itemName": "name_tag",
+    "value": 37012.903575870674
+  },
+  {
+    "id": 374,
+    "itemName": "black_dye",
+    "value": 16319.48745812904
+  },
+  {
+    "id": 376,
+    "itemName": "fermented_spider_eye",
+    "value": 3452.749336031122
+  },
+  {
+    "id": 377,
+    "itemName": "dark_oak_pressure_plate",
+    "value": 9655.063
+  },
+  {
+    "id": 383,
+    "itemName": "lime_banner",
+    "value": 275129.14671999996
+  },
+  {
+    "id": 384,
+    "itemName": "stone_sword",
+    "value": 3192.8007453937203
+  },
+  {
+    "id": 386,
+    "itemName": "gunpowder",
+    "value": 143.3882257326699
+  },
+  {
+    "id": 387,
+    "itemName": "stone_pickaxe",
+    "value": 17584.54236931642
+  },
+  {
+    "id": 389,
+    "itemName": "oak_leaves",
+    "value": 198.1526311543377
+  },
+  {
+    "id": 391,
+    "itemName": "amethyst_block",
+    "value": 492.42566262041936
+  },
+  {
+    "id": 392,
+    "itemName": "crying_obsidian",
+    "value": 341.83555876782526
+  },
+  {
+    "id": 395,
+    "itemName": "string",
+    "value": 980.1891577973847
+  },
+  {
+    "id": 397,
+    "itemName": "podzol",
+    "value": 3485.6776507328927
+  },
+  {
+    "id": 402,
+    "itemName": "pink_dye",
+    "value": 1838.5938232991336
+  },
+  {
+    "id": 407,
+    "itemName": "blaze_rod",
+    "value": 473.4587911443731
+  },
+  {
+    "id": 409,
+    "itemName": "cartography_table",
+    "value": 50664.32864128898
+  },
+  {
+    "id": 412,
+    "itemName": "quartz",
+    "value": 67.74150243649095
+  },
+  {
+    "id": 1,
+    "itemName": "iron_ingot",
+    "value": 2270.6303164885658
+  },
+  {
+    "id": 2,
+    "itemName": "repeater",
+    "value": 2982.613702239138
+  },
+  {
+    "id": 3,
+    "itemName": "silence_armor_trim_smithing_template",
+    "value": 46688.11720954171
+  },
+  {
+    "id": 4,
+    "itemName": "piston",
+    "value": 3460.131642873666
+  },
+  {
+    "id": 5,
+    "itemName": "golden_helmet",
+    "value": 11081.97
+  },
+  {
+    "id": 6,
+    "itemName": "polished_deepslate",
+    "value": 395.0742108453797
+  },
+  {
+    "id": 8,
+    "itemName": "enchanted_book",
+    "value": 67043.01722234307
+  },
+  {
+    "id": 9,
+    "itemName": "slime_ball",
+    "value": 2039.5924306986249
+  },
+  {
+    "id": 11,
+    "itemName": "bone_meal",
+    "value": 140.31550520043095
+  },
+  {
+    "id": 12,
+    "itemName": "arrow",
+    "value": 250.83206028391209
+  },
+  {
+    "id": 13,
+    "itemName": "deepslate_brick_slab",
+    "value": 1003.5440595300547
+  },
+  {
+    "id": 14,
+    "itemName": "water_bucket",
+    "value": 8655.48405167268
+  },
+  {
+    "id": 15,
+    "itemName": "bone",
+    "value": 121.95216693555406
+  },
+  {
+    "id": 16,
+    "itemName": "ender_chest",
+    "value": 21604.34150400344
+  },
+  {
+    "id": 17,
+    "itemName": "black_stained_glass",
+    "value": 1112.6395251091203
+  },
+  {
+    "id": 18,
+    "itemName": "iron_block",
+    "value": 18871.55710638668
+  },
+  {
+    "id": 19,
+    "itemName": "dirt",
+    "value": 291.42957323557255
+  },
+  {
+    "id": 20,
+    "itemName": "chest",
+    "value": 13052.542381289226
+  },
+  {
+    "id": 21,
+    "itemName": "golden_chestplate",
+    "value": 11897.96
+  },
+  {
+    "id": 22,
+    "itemName": "glass",
+    "value": 497.17475935932623
+  },
+  {
+    "id": 23,
+    "itemName": "coal",
+    "value": 926.6088742677629
+  },
+  {
+    "id": 24,
+    "itemName": "sculk",
+    "value": 920.9465013731262
+  },
+  {
+    "id": 25,
+    "itemName": "cobblestone",
+    "value": 138.0617161378391
+  },
+  {
+    "id": 26,
+    "itemName": "lever",
+    "value": 6477.757197847501
+  },
+  {
+    "id": 33,
+    "itemName": "end_crystal",
+    "value": 571.2250020268714
+  },
+  {
+    "id": 34,
+    "itemName": "totem_of_undying",
+    "value": 3920.040378159523
+  },
+  {
+    "id": 35,
+    "itemName": "golden_apple",
+    "value": 1540.184369824207
+  },
+  {
+    "id": 36,
+    "itemName": "ender_pearl",
+    "value": 393.5111655003051
+  },
+  {
+    "id": 37,
+    "itemName": "obsidian",
+    "value": 308.1107576859182
+  },
+  {
+    "id": 39,
+    "itemName": "calcite",
+    "value": 209.2931369060742
+  },
+  {
+    "id": 40,
+    "itemName": "iron_pickaxe",
+    "value": 7497.045472234533
+  },
+  {
+    "id": 41,
+    "itemName": "observer",
+    "value": 4628.147084333699
+  },
+  {
+    "id": 42,
+    "itemName": "spruce_sign",
+    "value": 2833.8494332105256
+  },
+  {
+    "id": 43,
+    "itemName": "mycelium",
+    "value": 575.2087191173632
+  },
+  {
+    "id": 45,
+    "itemName": "spruce_log",
+    "value": 314.67476928947394
+  },
+  {
+    "id": 47,
+    "itemName": "anvil",
+    "value": 24902.797849136292
+  },
+  {
+    "id": 48,
+    "itemName": "hopper",
+    "value": 5852.5843883331645
+  },
+  {
+    "id": 49,
+    "itemName": "bow",
+    "value": 18072.670646130486
+  },
+  {
+    "id": 50,
+    "itemName": "firework_rocket",
+    "value": 1051.9980246180223
+  },
+  {
+    "id": 51,
+    "itemName": "redstone",
+    "value": 508.6302293542034
+  },
+  {
+    "id": 52,
+    "itemName": "stone",
+    "value": 294.4664788495346
+  },
+  {
+    "id": 53,
+    "itemName": "yellow_shulker_box",
+    "value": 19875.5827162474
+  },
+  {
+    "id": 54,
+    "itemName": "moss_block",
+    "value": 218.60761165231543
+  },
+  {
+    "id": 55,
+    "itemName": "stick",
+    "value": 688.7443454082054
+  },
+  {
+    "id": 56,
+    "itemName": "glow_ink_sac",
+    "value": 26480.011214174825
+  },
+  {
+    "id": 58,
+    "itemName": "experience_bottle",
+    "value": 271.5916916608819
+  },
+  {
+    "id": 59,
+    "itemName": "leather_helmet",
+    "value": 200000
+  },
+  {
+    "id": 60,
+    "itemName": "glowstone",
+    "value": 354.9419912674085
+  },
+  {
+    "id": 62,
+    "itemName": "leather_leggings",
+    "value": 0
+  },
+  {
+    "id": 63,
+    "itemName": "respawn_anchor",
+    "value": 1263.3716550565466
+  },
+  {
+    "id": 64,
+    "itemName": "leather_boots",
+    "value": 0
+  },
+  {
+    "id": 65,
+    "itemName": "diamond_block",
+    "value": 50995.991805224374
+  },
+  {
+    "id": 66,
+    "itemName": "mud",
+    "value": 483.2492956347556
+  },
+  {
+    "id": 68,
+    "itemName": "detector_rail",
+    "value": 13086.36967841099
+  },
+  {
+    "id": 69,
+    "itemName": "potion",
+    "value": 82665.88211372093
+  },
+  {
+    "id": 70,
+    "itemName": "music_disc_creator_music_box",
+    "value": 1067425.431093505
+  },
+  {
+    "id": 71,
+    "itemName": "redstone_block",
+    "value": 11151.72313311545
+  },
+  {
+    "id": 72,
+    "itemName": "netherite_sword",
+    "value": 3021573.7
+  },
+  {
+    "id": 73,
+    "itemName": "shield",
+    "value": 22675.969629455034
+  },
+  {
+    "id": 74,
+    "itemName": "pointed_dripstone",
+    "value": 734.1351270140559
+  },
+  {
+    "id": 76,
+    "itemName": "magma_block",
+    "value": 146.76890146340406
+  },
+  {
+    "id": 78,
+    "itemName": "oak_planks",
+    "value": 180.37934369650372
+  },
+  {
+    "id": 79,
+    "itemName": "dropper",
+    "value": 12047.47915890517
+  },
+  {
+    "id": 82,
+    "itemName": "white_banner",
+    "value": 68621.82066805469
+  },
+  {
+    "id": 83,
+    "itemName": "redstone_lamp",
+    "value": 10410.654581512821
+  },
+  {
+    "id": 84,
+    "itemName": "slime_block",
+    "value": 23203.063546949557
+  },
+  {
+    "id": 85,
+    "itemName": "netherite_upgrade_smithing_template",
+    "value": 54988.729754665175
+  },
+  {
+    "id": 88,
+    "itemName": "quartz_block",
+    "value": 433.19975512409184
+  },
+  {
+    "id": 90,
+    "itemName": "stone_axe",
+    "value": 14752.032817412233
+  },
+  {
+    "id": 91,
+    "itemName": "brain_coral_block",
+    "value": 4316.77322434068
+  },
+  {
+    "id": 93,
+    "itemName": "spruce_slab",
+    "value": 544.5572458765016
+  },
+  {
+    "id": 94,
+    "itemName": "ice",
+    "value": 668.0241931598613
+  },
+  {
+    "id": 95,
+    "itemName": "chainmail_chestplate",
+    "value": 6184.901
+  },
+  {
+    "id": 96,
+    "itemName": "cobbled_deepslate_slab",
+    "value": 198.76224182838212
+  },
+  {
+    "id": 100,
+    "itemName": "oak_boat",
+    "value": 3099.08779390189
+  },
+  {
+    "id": 102,
+    "itemName": "music_disc_creator",
+    "value": 33638.772517640915
+  },
+  {
+    "id": 103,
+    "itemName": "powered_rail",
+    "value": 4167.7120620663245
+  },
+  {
+    "id": 104,
+    "itemName": "netherrack",
+    "value": 32.30617976188216
+  },
+  {
+    "id": 106,
+    "itemName": "spruce_wood",
+    "value": 931.4248616685996
+  },
+  {
+    "id": 107,
+    "itemName": "prismarine_shard",
+    "value": 11800.859269999999
+  },
+  {
+    "id": 108,
+    "itemName": "bone_block",
+    "value": 409.8996612005433
+  },
+  {
+    "id": 110,
+    "itemName": "bamboo",
+    "value": 48.576213413060195
+  },
+  {
+    "id": 112,
+    "itemName": "flint_and_steel",
+    "value": 8625.389636304422
+  },
+  {
+    "id": 114,
+    "itemName": "trial_key",
+    "value": 51057.51211545583
+  },
+  {
+    "id": 117,
+    "itemName": "milk_bucket",
+    "value": 25279.41957397939
+  },
+  {
+    "id": 118,
+    "itemName": "cobbled_deepslate",
+    "value": 42.86145209772525
+  },
+  {
+    "id": 119,
+    "itemName": "black_banner",
+    "value": 137537.3336702643
+  },
+  {
+    "id": 120,
+    "itemName": "splash_potion",
+    "value": 48710.13909725981
+  },
+  {
+    "id": 122,
+    "itemName": "note_block",
+    "value": 8708.944550505703
+  },
+  {
+    "id": 124,
+    "itemName": "iron_trapdoor",
+    "value": 25726.881755436145
+  },
+  {
+    "id": 128,
+    "itemName": "chainmail_leggings",
+    "value": 5371.089999999999
+  },
+  {
+    "id": 129,
+    "itemName": "netherite_axe",
+    "value": 3468615.8129
+  },
+  {
+    "id": 132,
+    "itemName": "minecart",
+    "value": 14654.95053949829
+  },
+  {
+    "id": 133,
+    "itemName": "spruce_fence_gate",
+    "value": 2337.4918690589693
+  },
+  {
+    "id": 136,
+    "itemName": "sea_pickle",
+    "value": 37.066362986241366
+  },
+  {
+    "id": 137,
+    "itemName": "bamboo_fence_gate",
+    "value": 35104.64408072844
+  },
+  {
+    "id": 138,
+    "itemName": "wither_skeleton_skull",
+    "value": 455946.3142335811
+  },
+  {
+    "id": 139,
+    "itemName": "lapis_lazuli",
+    "value": 424.8955029706108
+  },
+  {
+    "id": 140,
+    "itemName": "purple_stained_glass",
+    "value": 2539.1794546965034
+  },
+  {
+    "id": 142,
+    "itemName": "pink_stained_glass",
+    "value": 1862.9659326264068
+  },
+  {
+    "id": 143,
+    "itemName": "shears",
+    "value": 22995.343165138933
+  },
+  {
+    "id": 144,
+    "itemName": "armor_stand",
+    "value": 2785.819740970997
+  },
+  {
+    "id": 145,
+    "itemName": "dark_oak_slab",
+    "value": 10734.375
+  },
+  {
+    "id": 146,
+    "itemName": "golden_boots",
+    "value": 17394.38
+  },
+  {
+    "id": 148,
+    "itemName": "item_frame",
+    "value": 27440.622003758497
+  },
+  {
+    "id": 149,
+    "itemName": "redstone_torch",
+    "value": 5285.272555454375
+  },
+  {
+    "id": 150,
+    "itemName": "emerald",
+    "value": 7474.19737522952
+  },
+  {
+    "id": 152,
+    "itemName": "tuff",
+    "value": 492.52662435241143
+  },
+  {
+    "id": 153,
+    "itemName": "blue_ice",
+    "value": 9650.241781168314
+  },
+  {
+    "id": 157,
+    "itemName": "deepslate",
+    "value": 310.4494540834635
+  },
+  {
+    "id": 158,
+    "itemName": "hopper_minecart",
+    "value": 66548.39943183989
+  },
+  {
+    "id": 159,
+    "itemName": "stripped_cherry_log",
+    "value": 9230.575770999998
+  },
+  {
+    "id": 161,
+    "itemName": "chest_minecart",
+    "value": 23074.145229211485
+  },
+  {
+    "id": 162,
+    "itemName": "deepslate_brick_wall",
+    "value": 419.01
+  },
+  {
+    "id": 164,
+    "itemName": "resin_brick",
+    "value": 3704.513232744632
+  },
+  {
+    "id": 167,
+    "itemName": "dispenser",
+    "value": 22146.777511148088
+  },
+  {
+    "id": 168,
+    "itemName": "sticky_piston",
+    "value": 12148.21131763981
+  },
+  {
+    "id": 171,
+    "itemName": "packed_ice",
+    "value": 289.6331865761361
+  },
+  {
+    "id": 172,
+    "itemName": "iron_bars",
+    "value": 599.3011476262357
+  },
+  {
+    "id": 174,
+    "itemName": "purpur_block",
+    "value": 1099.4825130773079
+  },
+  {
+    "id": 175,
+    "itemName": "white_stained_glass",
+    "value": 1655.9468446817514
+  },
+  {
+    "id": 176,
+    "itemName": "cactus",
+    "value": 1075.0840853502843
+  },
+  {
+    "id": 177,
+    "itemName": "netherite_ingot",
+    "value": 3199190.5985156074
+  },
+  {
+    "id": 178,
+    "itemName": "dark_oak_log",
+    "value": 266.6297260163507
+  },
+  {
+    "id": 179,
+    "itemName": "tnt",
+    "value": 4333.105547510604
+  },
+  {
+    "id": 181,
+    "itemName": "spruce_planks",
+    "value": 205.53016287863915
+  },
+  {
+    "id": 187,
+    "itemName": "stone_button",
+    "value": 3440.010753685874
+  },
+  {
+    "id": 189,
+    "itemName": "soul_sand",
+    "value": 2539.9630145078877
+  },
+  {
+    "id": 190,
+    "itemName": "crafting_table",
+    "value": 1920.7719642236982
+  },
+  {
+    "id": 191,
+    "itemName": "crimson_nylium",
+    "value": 1395.8296759272955
+  },
+  {
+    "id": 192,
+    "itemName": "orange_shulker_box",
+    "value": 45057.665032
+  },
+  {
+    "id": 193,
+    "itemName": "axolotl_bucket",
+    "value": 118221.40891424168
+  },
+  {
+    "id": 195,
+    "itemName": "diamond",
+    "value": 7331.993767888726
+  },
+  {
+    "id": 198,
+    "itemName": "deepslate_bricks",
+    "value": 396.1278581257077
+  },
+  {
+    "id": 199,
+    "itemName": "tropical_fish_bucket",
+    "value": 86997.1632526961
+  },
+  {
+    "id": 200,
+    "itemName": "warped_fungus",
+    "value": 300.23478913441375
+  },
+  {
+    "id": 201,
+    "itemName": "bookshelf",
+    "value": 20293.219749296026
+  },
+  {
+    "id": 202,
+    "itemName": "dark_oak_trapdoor",
+    "value": 1234.3820669839197
+  },
+  {
+    "id": 203,
+    "itemName": "netherite_block",
+    "value": 26427829.97732258
+  },
+  {
+    "id": 204,
+    "itemName": "sand",
+    "value": 153.8726187405096
+  },
+  {
+    "id": 205,
+    "itemName": "oak_fence",
+    "value": 1852.2765235362722
+  },
+  {
+    "id": 210,
+    "itemName": "birch_log",
+    "value": 295.65324883584026
+  },
+  {
+    "id": 211,
+    "itemName": "yellow_stained_glass",
+    "value": 1119.3067067787772
+  },
+  {
+    "id": 212,
+    "itemName": "ladder",
+    "value": 601.0583235066581
+  },
+  {
+    "id": 215,
+    "itemName": "fire_coral_block",
+    "value": 4048.219777702642
+  },
+  {
+    "id": 216,
+    "itemName": "disc_fragment_5",
+    "value": 15400.798368623291
+  },
+  {
+    "id": 218,
+    "itemName": "potato",
+    "value": 738.0765080579446
+  },
+  {
+    "id": 219,
+    "itemName": "gilded_blackstone",
+    "value": 463742.663211548
+  },
+  {
+    "id": 221,
+    "itemName": "smoker",
+    "value": 6238.44722323797
+  },
+  {
+    "id": 222,
+    "itemName": "jungle_log",
+    "value": 489.8079997753998
+  },
+  {
+    "id": 224,
+    "itemName": "grass_block",
+    "value": 503.210114156914
+  },
+  {
+    "id": 226,
+    "itemName": "sponge",
+    "value": 80880.68099297272
+  },
+  {
+    "id": 227,
+    "itemName": "oak_fence_gate",
+    "value": 5036.04434804251
+  },
+  {
+    "id": 228,
+    "itemName": "black_concrete",
+    "value": 34119.57888063595
+  },
+  {
+    "id": 229,
+    "itemName": "bucket",
+    "value": 2412.5512972070687
+  },
+  {
+    "id": 230,
+    "itemName": "activator_rail",
+    "value": 9426.187204064936
+  },
+  {
+    "id": 231,
+    "itemName": "oak_log",
+    "value": 671.6407118089661
+  },
+  {
+    "id": 233,
+    "itemName": "chainmail_helmet",
+    "value": 1908.563386631983
+  },
+  {
+    "id": 234,
+    "itemName": "tinted_glass",
+    "value": 4938.01235770203
+  },
+  {
+    "id": 235,
+    "itemName": "dandelion",
+    "value": 7464.714655844339
+  },
+  {
+    "id": 236,
+    "itemName": "carved_pumpkin",
+    "value": 2658.101460134042
+  },
+  {
+    "id": 237,
+    "itemName": "barrel",
+    "value": 740003.6007354568
+  },
+  {
+    "id": 238,
+    "itemName": "oak_stairs",
+    "value": 6124.94
+  },
+  {
+    "id": 432,
+    "itemName": "chain",
+    "value": 2562.3560149107643
+  },
+  {
+    "id": 433,
+    "itemName": "white_bed",
+    "value": 18895.88316262328
+  },
+  {
+    "id": 434,
+    "itemName": "golden_carrot",
+    "value": 215.82312710405049
+  },
+  {
+    "id": 435,
+    "itemName": "loom",
+    "value": 26780.958447400993
+  },
+  {
+    "id": 436,
+    "itemName": "iron_sword",
+    "value": 18444.417145561045
+  },
+  {
+    "id": 438,
+    "itemName": "wind_charge",
+    "value": 3498.5736304451043
+  },
+  {
+    "id": 440,
+    "itemName": "melon_slice",
+    "value": 146.74012293044714
+  },
+  {
+    "id": 442,
+    "itemName": "powder_snow_bucket",
+    "value": 22990.94920861488
+  },
+  {
+    "id": 443,
+    "itemName": "deepslate_tiles",
+    "value": 202.00693236519587
+  },
+  {
+    "id": 445,
+    "itemName": "diamond_hoe",
+    "value": 39308.40656614633
+  },
+  {
+    "id": 447,
+    "itemName": "leather",
+    "value": 6171.620839723772
+  },
+  {
+    "id": 448,
+    "itemName": "heavy_weighted_pressure_plate",
+    "value": 28733.521401898164
+  },
+  {
+    "id": 449,
+    "itemName": "amethyst_cluster",
+    "value": 21931.738214886398
+  },
+  {
+    "id": 451,
+    "itemName": "polished_blackstone_bricks",
+    "value": 1520.5494953166635
+  },
+  {
+    "id": 452,
+    "itemName": "prismarine_brick_slab",
+    "value": 653.42
+  },
+  {
+    "id": 453,
+    "itemName": "cherry_leaves",
+    "value": 386.09827054945686
+  },
+  {
+    "id": 454,
+    "itemName": "bread",
+    "value": 1243.0729957604271
+  },
+  {
+    "id": 455,
+    "itemName": "sea_lantern",
+    "value": 39955.2068730856
+  },
+  {
+    "id": 456,
+    "itemName": "shroomlight",
+    "value": 15380.936045712391
+  },
+  {
+    "id": 460,
+    "itemName": "carrot",
+    "value": 93.67942871045108
+  },
+  {
+    "id": 463,
+    "itemName": "bubble_coral_block",
+    "value": 5370.391095875265
+  },
+  {
+    "id": 464,
+    "itemName": "jungle_trapdoor",
+    "value": 3444.2090799999996
+  },
+  {
+    "id": 466,
+    "itemName": "brown_mushroom_block",
+    "value": 2517.9060552823744
+  },
+  {
+    "id": 468,
+    "itemName": "elytra",
+    "value": 193971749.7697423
+  },
+  {
+    "id": 469,
+    "itemName": "lime_stained_glass",
+    "value": 1140.1890110000747
+  },
+  {
+    "id": 470,
+    "itemName": "black_concrete_powder",
+    "value": 1596.0094859634967
+  },
+  {
+    "id": 471,
+    "itemName": "oak_sapling",
+    "value": 4034.9652540881943
+  },
+  {
+    "id": 472,
+    "itemName": "pink_wool",
+    "value": 14094.525153929626
+  },
+  {
+    "id": 474,
+    "itemName": "blue_shulker_box",
+    "value": 80990.22216390619
+  },
+  {
+    "id": 478,
+    "itemName": "bundle",
+    "value": 64059.21208637905
+  },
+  {
+    "id": 484,
+    "itemName": "magenta_wool",
+    "value": 1837.2945059999997
+  },
+  {
+    "id": 487,
+    "itemName": "cherry_log",
+    "value": 845.1494529109516
+  },
+  {
+    "id": 490,
+    "itemName": "birch_sign",
+    "value": 2662.5252689075023
+  },
+  {
+    "id": 493,
+    "itemName": "ominous_trial_key",
+    "value": 219360.93749434524
+  },
+  {
+    "id": 500,
+    "itemName": "sniffer_egg",
+    "value": 38066.37353348664
+  },
+  {
+    "id": 502,
+    "itemName": "chorus_fruit",
+    "value": 38.128289858948875
+  },
+  {
+    "id": 504,
+    "itemName": "iron_helmet",
+    "value": 8111.196723402298
+  },
+  {
+    "id": 507,
+    "itemName": "iron_leggings",
+    "value": 13537.971077255359
+  },
+  {
+    "id": 511,
+    "itemName": "blaze_powder",
+    "value": 112.37039288769313
+  },
+  {
+    "id": 513,
+    "itemName": "iron_boots",
+    "value": 11625.90929500003
+  },
+  {
+    "id": 515,
+    "itemName": "dark_oak_sign",
+    "value": 9573.6388872668
+  },
+  {
+    "id": 517,
+    "itemName": "honeycomb",
+    "value": 2874.3919364876137
+  },
+  {
+    "id": 518,
+    "itemName": "pumpkin",
+    "value": 2005.3923465445303
+  },
+  {
+    "id": 524,
+    "itemName": "clay_ball",
+    "value": 94.04072068255172
+  },
+  {
+    "id": 525,
+    "itemName": "brewing_stand",
+    "value": 31375.719592368463
+  },
+  {
+    "id": 529,
+    "itemName": "tube_coral_block",
+    "value": 3418.754218728104
+  },
+  {
+    "id": 530,
+    "itemName": "raw_copper",
+    "value": 246.88092800759864
+  },
+  {
+    "id": 531,
+    "itemName": "netherite_hoe",
+    "value": 3387067.80691
+  },
+  {
+    "id": 533,
+    "itemName": "dark_oak_wood",
+    "value": 926.62
+  },
+  {
+    "id": 536,
+    "itemName": "red_mushroom_block",
+    "value": 415.94098114215893
+  },
+  {
+    "id": 538,
+    "itemName": "spruce_trapdoor",
+    "value": 5487.186712936674
+  },
+  {
+    "id": 539,
+    "itemName": "baked_potato",
+    "value": 843.5043153299997
+  },
+  {
+    "id": 540,
+    "itemName": "cooked_porkchop",
+    "value": 320.2962713561477
+  },
+  {
+    "id": 545,
+    "itemName": "music_disc_cat",
+    "value": 3543.8140815160036
+  },
+  {
+    "id": 548,
+    "itemName": "light_blue_wool",
+    "value": 1953.5054187882713
+  },
+  {
+    "id": 550,
+    "itemName": "pale_oak_log",
+    "value": 1410.7394516570805
+  },
+  {
+    "id": 551,
+    "itemName": "brown_shulker_box",
+    "value": 92591.80496
+  },
+  {
+    "id": 555,
+    "itemName": "waxed_weathered_copper_bulb",
+    "value": 60068.76893442
+  },
+  {
+    "id": 556,
+    "itemName": "polished_granite",
+    "value": 348.4973089999999
+  },
+  {
+    "id": 557,
+    "itemName": "honey_block",
+    "value": 12389.5955886833
+  },
+  {
+    "id": 566,
+    "itemName": "diamond_horse_armor",
+    "value": 29793.410576290848
+  },
+  {
+    "id": 567,
+    "itemName": "raw_iron",
+    "value": 666.5765255851444
+  },
+  {
+    "id": 568,
+    "itemName": "birch_planks",
+    "value": 245.09209674824672
+  },
+  {
+    "id": 578,
+    "itemName": "prismarine_crystals",
+    "value": 3896.0185104081506
+  },
+  {
+    "id": 581,
+    "itemName": "end_rod",
+    "value": 10728.487927627153
+  },
+  {
+    "id": 584,
+    "itemName": "oak_trapdoor",
+    "value": 12198.670932111316
+  },
+  {
+    "id": 586,
+    "itemName": "deepslate_brick_stairs",
+    "value": 1623.0503650999997
+  },
+  {
+    "id": 588,
+    "itemName": "light_blue_stained_glass",
+    "value": 1564.7315099712996
+  },
+  {
+    "id": 589,
+    "itemName": "nether_wart",
+    "value": 108.40362870512253
+  },
+  {
+    "id": 594,
+    "itemName": "glow_berries",
+    "value": 5294.520970439287
+  },
+  {
+    "id": 595,
+    "itemName": "zombie_head",
+    "value": 2312503.190684817
+  },
+  {
+    "id": 597,
+    "itemName": "orange_stained_glass",
+    "value": 1333.0029038332607
+  },
+  {
+    "id": 598,
+    "itemName": "end_stone",
+    "value": 148.71645482068251
+  },
+  {
+    "id": 602,
+    "itemName": "painting",
+    "value": 15931.315749044485
+  },
+  {
+    "id": 603,
+    "itemName": "breeze_rod",
+    "value": 5099.139786277316
+  },
+  {
+    "id": 605,
+    "itemName": "turtle_helmet",
+    "value": 188031.45738989458
+  },
+  {
+    "id": 606,
+    "itemName": "gold_ingot",
+    "value": 12739.307279102353
+  },
+  {
+    "id": 607,
+    "itemName": "copper_ingot",
+    "value": 354.85211844754593
+  },
+  {
+    "id": 609,
+    "itemName": "saddle",
+    "value": 6739.498538265975
+  },
+  {
+    "id": 610,
+    "itemName": "end_stone_bricks",
+    "value": 486.79436999999996
+  },
+  {
+    "id": 612,
+    "itemName": "cooked_chicken",
+    "value": 1170.2973125283697
+  },
+  {
+    "id": 616,
+    "itemName": "prismarine",
+    "value": 1677.8929179454235
+  },
+  {
+    "id": 625,
+    "itemName": "wheat",
+    "value": 677.6248601701585
+  },
+  {
+    "id": 627,
+    "itemName": "ancient_debris",
+    "value": 862418.1916420565
+  },
+  {
+    "id": 628,
+    "itemName": "pufferfish_bucket",
+    "value": 44426.39710724271
+  },
+  {
+    "id": 630,
+    "itemName": "cherry_fence",
+    "value": 2961.3820771918995
+  },
+  {
+    "id": 631,
+    "itemName": "egg",
+    "value": 1801.4579273035538
+  },
+  {
+    "id": 632,
+    "itemName": "magenta_shulker_box",
+    "value": 20874.6501
+  },
+  {
+    "id": 635,
+    "itemName": "brown_wool",
+    "value": 4924.521593500118
+  },
+  {
+    "id": 637,
+    "itemName": "glass_bottle",
+    "value": 5194.797786517547
+  },
+  {
+    "id": 638,
+    "itemName": "andesite",
+    "value": 500.86413078115095
+  },
+  {
+    "id": 639,
+    "itemName": "iron_horse_armor",
+    "value": 1455.078978542791
+  },
+  {
+    "id": 641,
+    "itemName": "blue_concrete",
+    "value": 2994.5133538764794
+  },
+  {
+    "id": 644,
+    "itemName": "green_shulker_box",
+    "value": 48119.73142999999
+  },
+  {
+    "id": 648,
+    "itemName": "golden_horse_armor",
+    "value": 25106.338793658917
+  },
+  {
+    "id": 649,
+    "itemName": "flint",
+    "value": 1118.2651130692914
+  },
+  {
+    "id": 652,
+    "itemName": "armadillo_scute",
+    "value": 2610.1776617429996
+  },
+  {
+    "id": 657,
+    "itemName": "tnt_minecart",
+    "value": 28591.445891889645
+  },
+  {
+    "id": 659,
+    "itemName": "white_concrete",
+    "value": 1761.7377466337166
+  },
+  {
+    "id": 661,
+    "itemName": "brown_glazed_terracotta",
+    "value": 174495.30239999996
+  },
+  {
+    "id": 662,
+    "itemName": "spruce_leaves",
+    "value": 208.11365607518684
+  },
+  {
+    "id": 664,
+    "itemName": "red_nether_bricks",
+    "value": 1570.2229719648465
+  },
+  {
+    "id": 675,
+    "itemName": "grindstone",
+    "value": 28856.162613345427
+  },
+  {
+    "id": 676,
+    "itemName": "amethyst_shard",
+    "value": 956.2925302750892
+  },
+  {
+    "id": 678,
+    "itemName": "purple_shulker_box",
+    "value": 64646.03
+  },
+  {
+    "id": 680,
+    "itemName": "jungle_sign",
+    "value": 963.9997217738007
+  },
+  {
+    "id": 683,
+    "itemName": "beehive",
+    "value": 66653.54128572081
+  },
+  {
+    "id": 684,
+    "itemName": "soul_torch",
+    "value": 8576.663741518132
+  },
+  {
+    "id": 687,
+    "itemName": "turtle_egg",
+    "value": 48438.62063283473
+  },
+  {
+    "id": 694,
+    "itemName": "dark_oak_door",
+    "value": 3110.3689999999997
+  },
+  {
+    "id": 699,
+    "itemName": "iron_door",
+    "value": 3827.173206804389
+  },
+  {
+    "id": 704,
+    "itemName": "white_concrete_powder",
+    "value": 1299.89273337775
+  },
+  {
+    "id": 713,
+    "itemName": "birch_leaves",
+    "value": 199.62318300524953
+  },
+  {
+    "id": 716,
+    "itemName": "moss_carpet",
+    "value": 499.6772838845052
+  },
+  {
+    "id": 717,
+    "itemName": "pink_shulker_box",
+    "value": 24832.86318353869
+  },
+  {
+    "id": 722,
+    "itemName": "beacon",
+    "value": 1797511.6436497099
+  },
+  {
+    "id": 730,
+    "itemName": "suspicious_gravel",
+    "value": 42926.852785954994
+  },
+  {
+    "id": 732,
+    "itemName": "golden_sword",
+    "value": 13716.9509
+  },
+  {
+    "id": 733,
+    "itemName": "orange_dye",
+    "value": 1412.9439894744282
+  },
+  {
+    "id": 735,
+    "itemName": "cauldron",
+    "value": 33450.96386992485
+  },
+  {
+    "id": 736,
+    "itemName": "spider_eye",
+    "value": 247.37507617757288
+  },
+  {
+    "id": 737,
+    "itemName": "diorite",
+    "value": 1943.4309857515561
+  },
+  {
+    "id": 744,
+    "itemName": "cocoa_beans",
+    "value": 134.91376216408244
+  },
+  {
+    "id": 746,
+    "itemName": "cobbled_deepslate_wall",
+    "value": 1605.3900389162995
+  },
+  {
+    "id": 747,
+    "itemName": "piglin_head",
+    "value": 8943457.320775203
+  },
+  {
+    "id": 750,
+    "itemName": "brown_mushroom",
+    "value": 11469.246633073464
+  },
+  {
+    "id": 751,
+    "itemName": "music_disc_13",
+    "value": 3827.466172391601
+  },
+  {
+    "id": 752,
+    "itemName": "bricks",
+    "value": 972.4019989999999
+  },
+  {
+    "id": 753,
+    "itemName": "stone_bricks",
+    "value": 1857.1709391390984
+  },
+  {
+    "id": 755,
+    "itemName": "bee_nest",
+    "value": 74631.71280056566
+  },
+  {
+    "id": 756,
+    "itemName": "netherite_scrap",
+    "value": 848907.5960178558
+  },
+  {
+    "id": 757,
+    "itemName": "lime_dye",
+    "value": 1063.1810402900219
+  },
+  {
+    "id": 765,
+    "itemName": "pearlescent_froglight",
+    "value": 11948.660083271669
+  },
+  {
+    "id": 767,
+    "itemName": "red_banner",
+    "value": 199031.48858240867
+  },
+  {
+    "id": 771,
+    "itemName": "smooth_basalt",
+    "value": 478.04424859878384
+  },
+  {
+    "id": 773,
+    "itemName": "blue_dye",
+    "value": 1289.940297871858
+  },
+  {
+    "id": 777,
+    "itemName": "spruce_fence",
+    "value": 368.2609439042878
+  },
+  {
+    "id": 780,
+    "itemName": "muddy_mangrove_roots",
+    "value": 343.7116934179089
+  },
+  {
+    "id": 783,
+    "itemName": "cobbled_deepslate_stairs",
+    "value": 781.2498062187817
+  },
+  {
+    "id": 787,
+    "itemName": "campfire",
+    "value": 54166.20931258834
+  },
+  {
+    "id": 788,
+    "itemName": "paper",
+    "value": 291.70646307288604
+  },
+  {
+    "id": 799,
+    "itemName": "tuff_bricks",
+    "value": 407.6308668004537
+  },
+  {
+    "id": 809,
+    "itemName": "cobblestone_wall",
+    "value": 1138.1264557936295
+  },
+  {
+    "id": 810,
+    "itemName": "raw_gold",
+    "value": 1275.7112148065876
+  },
+  {
+    "id": 812,
+    "itemName": "polished_blackstone_brick_stairs",
+    "value": 12763.163323409999
+  },
+  {
+    "id": 818,
+    "itemName": "gray_wool",
+    "value": 4145.971623394687
+  },
+  {
+    "id": 821,
+    "itemName": "rabbit_hide",
+    "value": 5236.972230757994
+  },
+  {
+    "id": 826,
+    "itemName": "smooth_stone_slab",
+    "value": 619.5519605169835
+  },
+  {
+    "id": 828,
+    "itemName": "spruce_sapling",
+    "value": 156.4761602281487
+  },
+  {
+    "id": 829,
+    "itemName": "wooden_pickaxe",
+    "value": 35435.074564799994
+  },
+  {
+    "id": 836,
+    "itemName": "poisonous_potato",
+    "value": 2928.0376614757492
+  },
+  {
+    "id": 837,
+    "itemName": "tripwire_hook",
+    "value": 5309.301948632806
+  },
+  {
+    "id": 839,
+    "itemName": "black_shulker_box",
+    "value": 73994.90954925596
+  },
+  {
+    "id": 842,
+    "itemName": "recovery_compass",
+    "value": 265559.011
+  },
+  {
+    "id": 843,
+    "itemName": "oak_wood",
+    "value": 2404.34
+  },
+  {
+    "id": 846,
+    "itemName": "glass_pane",
+    "value": 964.273037726737
+  },
+  {
+    "id": 850,
+    "itemName": "quartz_stairs",
+    "value": 1562.7095978290665
+  },
+  {
+    "id": 855,
+    "itemName": "stone_shovel",
+    "value": 3889.8948240524087
+  },
+  {
+    "id": 858,
+    "itemName": "polished_blackstone",
+    "value": 2596.809463808341
+  },
+  {
+    "id": 859,
+    "itemName": "dark_oak_fence",
+    "value": 2297.6481260859878
+  },
+  {
+    "id": 869,
+    "itemName": "white_dye",
+    "value": 582.0855636369296
+  },
+  {
+    "id": 870,
+    "itemName": "golden_leggings",
+    "value": 20929.88
+  },
+  {
+    "id": 873,
+    "itemName": "lapis_block",
+    "value": 6300.341767321736
+  },
+  {
+    "id": 882,
+    "itemName": "enchanted_golden_apple",
+    "value": 523626.55779078987
+  },
+  {
+    "id": 883,
+    "itemName": "furnace",
+    "value": 4980.2442427740325
+  },
+  {
+    "id": 888,
+    "itemName": "magma_cream",
+    "value": 870.72435
+  },
+  {
+    "id": 889,
+    "itemName": "glowstone_dust",
+    "value": 278.89537001441954
+  },
+  {
+    "id": 891,
+    "itemName": "fletching_table",
+    "value": 55084.25026164676
+  },
+  {
+    "id": 894,
+    "itemName": "iron_chestplate",
+    "value": 11778.127708591895
+  },
+  {
+    "id": 900,
+    "itemName": "ward_armor_trim_smithing_template",
+    "value": 68389.59445264947
+  },
+  {
+    "id": 902,
+    "itemName": "yellow_glazed_terracotta",
+    "value": 5194.790694750895
+  },
+  {
+    "id": 906,
+    "itemName": "polished_basalt",
+    "value": 938.5340405144055
+  },
+  {
+    "id": 911,
+    "itemName": "crossbow",
+    "value": 330123.35168137867
+  },
+  {
+    "id": 913,
+    "itemName": "waxed_oxidized_copper",
+    "value": 1017.4093353116068
+  },
+  {
+    "id": 920,
+    "itemName": "golden_pickaxe",
+    "value": 85393.90297699999
+  },
+  {
+    "id": 921,
+    "itemName": "rib_armor_trim_smithing_template",
+    "value": 84514.65260284727
+  },
+  {
+    "id": 923,
+    "itemName": "compass",
+    "value": 9355.550951495083
+  },
+  {
+    "id": 924,
+    "itemName": "heavy_core",
+    "value": 2096893.7615430164
+  },
+  {
+    "id": 926,
+    "itemName": "sculk_sensor",
+    "value": 8489.238147892589
+  },
+  {
+    "id": 933,
+    "itemName": "light_blue_concrete",
+    "value": 2653.2210189686743
+  },
+  {
+    "id": 940,
+    "itemName": "rose_bush",
+    "value": 1116.719517333971
+  },
+  {
+    "id": 941,
+    "itemName": "stripped_spruce_log",
+    "value": 952.1355307729998
+  },
+  {
+    "id": 942,
+    "itemName": "clock",
+    "value": 37841.94721046493
+  },
+  {
+    "id": 943,
+    "itemName": "light_blue_banner",
+    "value": 160300.01450485986
+  },
+  {
+    "id": 947,
+    "itemName": "tropical_fish",
+    "value": 27013.396968937042
+  },
+  {
+    "id": 949,
+    "itemName": "nether_bricks",
+    "value": 1508.3305718571726
+  },
+  {
+    "id": 959,
+    "itemName": "hay_block",
+    "value": 2209.4682825932678
+  },
+  {
+    "id": 961,
+    "itemName": "green_dye",
+    "value": 3253.361569843227
+  },
+  {
+    "id": 969,
+    "itemName": "red_concrete",
+    "value": 1345.041881395027
+  },
+  {
+    "id": 978,
+    "itemName": "flow_armor_trim_smithing_template",
+    "value": 61834.67146477407
+  },
+  {
+    "id": 987,
+    "itemName": "feather",
+    "value": 5105.721977619498
+  },
+  {
+    "id": 998,
+    "itemName": "deepslate_gold_ore",
+    "value": 6315.883914444775
+  },
+  {
+    "id": 1001,
+    "itemName": "resin_clump",
+    "value": 12064.900987288385
+  },
+  {
+    "id": 1002,
+    "itemName": "chiseled_polished_blackstone",
+    "value": 18521.25366417844
+  },
+  {
+    "id": 1003,
+    "itemName": "coal_ore",
+    "value": 4376.682886438265
+  },
+  {
+    "id": 1020,
+    "itemName": "soul_lantern",
+    "value": 18466.504617303493
+  },
+  {
+    "id": 1023,
+    "itemName": "glow_lichen",
+    "value": 727.271356426334
+  },
+  {
+    "id": 1028,
+    "itemName": "bamboo_block",
+    "value": 156.42697230615966
+  },
+  {
+    "id": 1034,
+    "itemName": "verdant_froglight",
+    "value": 16442.751933348445
+  },
+  {
+    "id": 1037,
+    "itemName": "flower_pot",
+    "value": 15484.821578955634
+  },
+  {
+    "id": 1064,
+    "itemName": "oak_hanging_sign",
+    "value": 29741.81
+  },
+  {
+    "id": 1066,
+    "itemName": "ink_sac",
+    "value": 10068.066604234571
+  },
+  {
+    "id": 1078,
+    "itemName": "gray_concrete",
+    "value": 4615.910989795515
+  },
+  {
+    "id": 1082,
+    "itemName": "jungle_fence_gate",
+    "value": 4071.6659999999997
+  },
+  {
+    "id": 1083,
+    "itemName": "pink_petals",
+    "value": 175.25412844319766
+  },
+  {
+    "id": 1085,
+    "itemName": "nautilus_shell",
+    "value": 56356.457400510495
+  },
+  {
+    "id": 1095,
+    "itemName": "light_blue_dye",
+    "value": 533.677320087095
+  },
+  {
+    "id": 1097,
+    "itemName": "honey_bottle",
+    "value": 10975.762950101842
+  },
+  {
+    "id": 1098,
+    "itemName": "oak_door",
+    "value": 2348.497534567259
+  },
+  {
+    "id": 1103,
+    "itemName": "snowball",
+    "value": 459.6899681877564
+  },
+  {
+    "id": 1104,
+    "itemName": "gray_dye",
+    "value": 1546.8763842875042
+  },
+  {
+    "id": 1106,
+    "itemName": "rabbit_foot",
+    "value": 15891.768276799998
+  },
+  {
+    "id": 1109,
+    "itemName": "red_wool",
+    "value": 2324.9944272505404
+  },
+  {
+    "id": 1111,
+    "itemName": "smooth_quartz",
+    "value": 1647.784248533214
+  },
+  {
+    "id": 1115,
+    "itemName": "light_gray_stained_glass_pane",
+    "value": 13533.49
+  },
+  {
+    "id": 1116,
+    "itemName": "beef",
+    "value": 217.33662375787947
+  },
+  {
+    "id": 1117,
+    "itemName": "skeleton_skull",
+    "value": 627502.9410980341
+  },
+  {
+    "id": 1120,
+    "itemName": "cherry_sign",
+    "value": 8764.834389647498
+  },
+  {
+    "id": 1128,
+    "itemName": "dragon_head",
+    "value": 22340492.6720016
+  },
+  {
+    "id": 1130,
+    "itemName": "sculk_vein",
+    "value": 8129.560144950849
+  },
+  {
+    "id": 1132,
+    "itemName": "light_gray_dye",
+    "value": 11793.71478348924
+  },
+  {
+    "id": 1136,
+    "itemName": "fire_coral_fan",
+    "value": 28581.268262978418
+  },
+  {
+    "id": 1148,
+    "itemName": "pumpkin_seeds",
+    "value": 550.5039404478235
+  },
+  {
+    "id": 1152,
+    "itemName": "warped_planks",
+    "value": 1408.5989130099997
+  },
+  {
+    "id": 1156,
+    "itemName": "dune_armor_trim_smithing_template",
+    "value": 102625.03133599281
+  },
+  {
+    "id": 1158,
+    "itemName": "nether_wart_block",
+    "value": 1480.5478624199566
+  },
+  {
+    "id": 1160,
+    "itemName": "rotten_flesh",
+    "value": 260.6715930205786
+  },
+  {
+    "id": 1162,
+    "itemName": "pale_oak_planks",
+    "value": 1236.8198423221993
+  },
+  {
+    "id": 1166,
+    "itemName": "wild_armor_trim_smithing_template",
+    "value": 99982.24792606209
+  },
+  {
+    "id": 1167,
+    "itemName": "coast_armor_trim_smithing_template",
+    "value": 42485.670711390616
+  },
+  {
+    "id": 1176,
+    "itemName": "charcoal",
+    "value": 1419.8146369249998
+  },
+  {
+    "id": 1178,
+    "itemName": "ochre_froglight",
+    "value": 17183.536549902426
+  },
+  {
+    "id": 1180,
+    "itemName": "music_disc_mall",
+    "value": 442533.25860999996
+  },
+  {
+    "id": 1186,
+    "itemName": "music_disc_ward",
+    "value": 271205.14258
+  },
+  {
+    "id": 1199,
+    "itemName": "glistering_melon_slice",
+    "value": 4583.709871741463
+  },
+  {
+    "id": 1200,
+    "itemName": "yellow_concrete_powder",
+    "value": 1920.8088264999997
+  },
+  {
+    "id": 1202,
+    "itemName": "cyan_stained_glass",
+    "value": 1546.881527441305
+  },
+  {
+    "id": 1206,
+    "itemName": "light_gray_shulker_box",
+    "value": 48080.13
+  },
+  {
+    "id": 1208,
+    "itemName": "stonecutter",
+    "value": 33990.37259775499
+  },
+  {
+    "id": 1211,
+    "itemName": "deepslate_lapis_ore",
+    "value": 5639.208400420779
+  },
+  {
+    "id": 1218,
+    "itemName": "cobblestone_stairs",
+    "value": 1384.1799999999998
+  },
+  {
+    "id": 1220,
+    "itemName": "torchflower_seeds",
+    "value": 11321.429865394275
+  },
+  {
+    "id": 1224,
+    "itemName": "chipped_anvil",
+    "value": 24883.417821864063
+  },
+  {
+    "id": 1225,
+    "itemName": "red_sand",
+    "value": 550.6137673546762
+  },
+  {
+    "id": 1226,
+    "itemName": "warped_roots",
+    "value": 711.9179978
+  },
+  {
+    "id": 1243,
+    "itemName": "heart_of_the_sea",
+    "value": 117413.43296269338
+  },
+  {
+    "id": 1255,
+    "itemName": "red_bed",
+    "value": 56879.0819
+  },
+  {
+    "id": 1261,
+    "itemName": "music_disc_5",
+    "value": 232717.7469397964
+  },
+  {
+    "id": 1264,
+    "itemName": "mossy_cobblestone",
+    "value": 1394.053894084104
+  },
+  {
+    "id": 1272,
+    "itemName": "spore_blossom",
+    "value": 25525.17562098721
+  },
+  {
+    "id": 1281,
+    "itemName": "gray_bed",
+    "value": 19635.714
+  },
+  {
+    "id": 1293,
+    "itemName": "light_gray_stained_glass",
+    "value": 3715.5226855881
+  },
+  {
+    "id": 1295,
+    "itemName": "stone_hoe",
+    "value": 42286.23
+  },
+  {
+    "id": 1298,
+    "itemName": "big_dripleaf",
+    "value": 966.0963115899998
+  },
+  {
+    "id": 1304,
+    "itemName": "jungle_boat",
+    "value": 2861.735236346337
+  },
+  {
+    "id": 1311,
+    "itemName": "black_wool",
+    "value": 1369.1049638243635
+  },
+  {
+    "id": 1317,
+    "itemName": "snout_armor_trim_smithing_template",
+    "value": 61758.8927733985
+  },
+  {
+    "id": 1318,
+    "itemName": "spruce_pressure_plate",
+    "value": 1977.2983972522322
+  },
+  {
+    "id": 1319,
+    "itemName": "spruce_boat",
+    "value": 2811.834321620977
+  },
+  {
+    "id": 1322,
+    "itemName": "granite",
+    "value": 283.8762956518294
+  },
+  {
+    "id": 1323,
+    "itemName": "tide_armor_trim_smithing_template",
+    "value": 105167.45398943943
+  },
+  {
+    "id": 1331,
+    "itemName": "magenta_banner",
+    "value": 38628.495911038466
+  },
+  {
+    "id": 1333,
+    "itemName": "sculk_catalyst",
+    "value": 5239.825234829786
+  },
+  {
+    "id": 1339,
+    "itemName": "granite_slab",
+    "value": 364.67
+  },
+  {
+    "id": 1340,
+    "itemName": "lingering_potion",
+    "value": 27157.084880705046
+  },
+  {
+    "id": 1343,
+    "itemName": "pufferfish",
+    "value": 62299.058826733206
+  },
+  {
+    "id": 1354,
+    "itemName": "music_disc_pigstep",
+    "value": 435500.23880651523
+  },
+  {
+    "id": 1355,
+    "itemName": "sentry_armor_trim_smithing_template",
+    "value": 130451.40947179003
+  },
+  {
+    "id": 1359,
+    "itemName": "sandstone",
+    "value": 193.32609225030592
+  },
+  {
+    "id": 1360,
+    "itemName": "yellow_stained_glass_pane",
+    "value": 2561.77708
+  },
+  {
+    "id": 1367,
+    "itemName": "basalt",
+    "value": 509.3276695299515
+  },
+  {
+    "id": 1373,
+    "itemName": "coal_block",
+    "value": 15575.159970911587
+  },
+  {
+    "id": 1379,
+    "itemName": "crimson_fungus",
+    "value": 387.51859240837535
+  },
+  {
+    "id": 1387,
+    "itemName": "dark_oak_fence_gate",
+    "value": 2999.924003371895
+  },
+  {
+    "id": 1393,
+    "itemName": "cyan_wool",
+    "value": 4544.56267232275
+  },
+  {
+    "id": 1419,
+    "itemName": "lime_shulker_box",
+    "value": 28487.209
+  },
+  {
+    "id": 1425,
+    "itemName": "spectral_arrow",
+    "value": 459.2931859646329
+  },
+  {
+    "id": 1426,
+    "itemName": "lightning_rod",
+    "value": 27818.43876961582
+  },
+  {
+    "id": 1440,
+    "itemName": "red_mushroom",
+    "value": 1757.0093197436615
+  },
+  {
+    "id": 1441,
+    "itemName": "sunflower",
+    "value": 1015.8975965499998
+  },
+  {
+    "id": 1443,
+    "itemName": "red_carpet",
+    "value": 2829.9267242652686
+  },
+  {
+    "id": 1460,
+    "itemName": "magenta_concrete",
+    "value": 2933.9738446470446
+  },
+  {
+    "id": 1466,
+    "itemName": "light_weighted_pressure_plate",
+    "value": 35484.49108582053
+  },
+  {
+    "id": 1472,
+    "itemName": "cornflower",
+    "value": 10364.639725999998
+  },
+  {
+    "id": 1477,
+    "itemName": "iron_shovel",
+    "value": 49759.147099999995
+  },
+  {
+    "id": 1480,
+    "itemName": "flow_banner_pattern",
+    "value": 6534.251596821925
+  },
+  {
+    "id": 1482,
+    "itemName": "porkchop",
+    "value": 302.7243845018185
+  },
+  {
+    "id": 1484,
+    "itemName": "polished_tuff",
+    "value": 527.3026250896262
+  },
+  {
+    "id": 1487,
+    "itemName": "soul_soil",
+    "value": 790.9503622306092
+  },
+  {
+    "id": 1491,
+    "itemName": "mangrove_log",
+    "value": 1874.701003623907
+  },
+  {
+    "id": 1493,
+    "itemName": "wet_sponge",
+    "value": 62076.452850607246
+  },
+  {
+    "id": 1504,
+    "itemName": "suspicious_sand",
+    "value": 80106.70796345081
+  },
+  {
+    "id": 1513,
+    "itemName": "dark_prismarine",
+    "value": 9930.803298110886
+  },
+  {
+    "id": 1519,
+    "itemName": "weeping_vines",
+    "value": 1558.3305583758086
+  },
+  {
+    "id": 1521,
+    "itemName": "orange_concrete",
+    "value": 990.8588408138405
+  },
+  {
+    "id": 1526,
+    "itemName": "bell",
+    "value": 31364.51900986465
+  },
+  {
+    "id": 1531,
+    "itemName": "pink_tulip",
+    "value": 10970.447679999997
+  },
+  {
+    "id": 1534,
+    "itemName": "ender_eye",
+    "value": 3245.405412401476
+  },
+  {
+    "id": 1549,
+    "itemName": "birch_boat",
+    "value": 11878.216898854627
+  },
+  {
+    "id": 1550,
+    "itemName": "birch_sapling",
+    "value": 920.8396688146169
+  },
+  {
+    "id": 1556,
+    "itemName": "glow_item_frame",
+    "value": 89322.93092030766
+  },
+  {
+    "id": 1557,
+    "itemName": "polished_andesite",
+    "value": 603.691572
+  },
+  {
+    "id": 1564,
+    "itemName": "cracked_polished_blackstone_bricks",
+    "value": 6289.018563025067
+  },
+  {
+    "id": 1565,
+    "itemName": "eye_armor_trim_smithing_template",
+    "value": 75103.86854042347
+  },
+  {
+    "id": 1568,
+    "itemName": "green_bed",
+    "value": 13985.64721093092
+  },
+  {
+    "id": 1569,
+    "itemName": "magenta_bed",
+    "value": 34812.557
+  },
+  {
+    "id": 1570,
+    "itemName": "raw_iron_block",
+    "value": 6827.642568335962
+  },
+  {
+    "id": 1579,
+    "itemName": "iron_nugget",
+    "value": 999.4505193799998
+  },
+  {
+    "id": 1582,
+    "itemName": "acacia_log",
+    "value": 551.3309232141678
+  },
+  {
+    "id": 1586,
+    "itemName": "quartz_bricks",
+    "value": 1839.8316340040196
+  },
+  {
+    "id": 1590,
+    "itemName": "pink_banner",
+    "value": 334821.98279999994
+  },
+  {
+    "id": 1593,
+    "itemName": "cod_bucket",
+    "value": 40871.066
+  },
+  {
+    "id": 1596,
+    "itemName": "green_banner",
+    "value": 274005.0451069999
+  }
+]

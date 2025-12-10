@@ -470,7 +470,7 @@ public class Modules extends System<Modules> {
         add(new Flight()); // Necessario per evitare crash
         add(new GUIMove());
         // add(new HighJump()); // ⚠️ Flagga anticheat
-        // add(new Jesus()); // ⚠️ Flagga anticheat
+         add(new Jesus()); // ⚠️ Flagga anticheat
         // add(new LongJump()); // ⚠️ Flagga anticheat
         add(new NoFall()); // ⚠️ Flagga anticheat(necessario per evitare crash)
         add(new NoSlow()); // Necessario per evitare crash
