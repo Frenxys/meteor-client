@@ -469,7 +469,7 @@ public class Modules extends System<Modules> {
         // add(new HighJump()); // ⚠️ Flagga anticheat
         // add(new Jesus()); // ⚠️ Flagga anticheat
         // add(new LongJump()); // ⚠️ Flagga anticheat
-        // add(new NoFall()); // ⚠️ Flagga anticheat
+        add(new NoFall()); // ⚠️ Flagga anticheat(necessario per evitare crash)
         add(new NoSlow()); // Necessario per evitare crash
         // add(new Parkour());
         // add(new ReverseStep());
