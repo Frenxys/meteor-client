@@ -36,6 +36,10 @@ public class Hud extends System<Hud> implements Iterable<HudElement> {
     public final Map<String, HudElementInfo<?>> infos = new TreeMap<>();
     private final List<HudElement> elements = new ArrayList<>();
 
+    public List<HudElement> getElements() {
+        return elements;
+    }
+
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private final SettingGroup sgEditor = settings.createGroup("Editor");
     private final SettingGroup sgKeybind = settings.createGroup("Bind");
@@ -118,6 +122,7 @@ public class Hud extends System<Hud> implements Iterable<HudElement> {
 
         register(MeteorTextHud.INFO);
         register(ItemHud.INFO);
+        register(TeleportCooldownHud.INFO);
         register(InventoryHud.INFO);
         register(CompassHud.INFO);
         register(ArmorHud.INFO);

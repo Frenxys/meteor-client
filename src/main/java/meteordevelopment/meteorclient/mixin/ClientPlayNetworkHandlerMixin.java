@@ -157,5 +157,15 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
             client.inGameHud.getChatHud().addToMessageHistory(message);
             ci.cancel();
         }
+
+        // TeleportCooldown: trigger cooldown on any /rtp command
+        if (message.trim().toLowerCase().startsWith("/rtp")) {
+            meteordevelopment.meteorclient.systems.hud.Hud hud = meteordevelopment.meteorclient.systems.hud.Hud.get();
+            meteordevelopment.meteorclient.systems.hud.elements.TeleportCooldownHud cooldownHud = hud.getElements().stream()
+                .filter(e -> e instanceof meteordevelopment.meteorclient.systems.hud.elements.TeleportCooldownHud)
+                .map(e -> (meteordevelopment.meteorclient.systems.hud.elements.TeleportCooldownHud) e)
+                .findFirst().orElse(null);
+            if (cooldownHud != null) cooldownHud.triggerCooldown();
+        }
     }
 }

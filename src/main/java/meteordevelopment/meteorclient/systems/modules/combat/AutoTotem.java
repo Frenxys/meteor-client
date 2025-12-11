@@ -34,8 +34,9 @@ public class AutoTotem extends Module {
     private final Setting<Integer> delay = sgGeneral.add(new IntSetting.Builder()
         .name("delay")
         .description("The ticks between slot movements.")
-        .defaultValue(0)
+        .defaultValue(10)
         .min(0)
+        .max(20)
         .build()
     );
 
