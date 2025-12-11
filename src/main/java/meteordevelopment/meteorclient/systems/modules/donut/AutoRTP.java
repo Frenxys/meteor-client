@@ -40,8 +40,8 @@ public class AutoRTP extends Module {
         .name("delay")
         .description("Delay for each RTP in seconds")
         .defaultValue(5)
-        .min(0)
-        .max(10)
+        .min(14)
+        .max(20)
         .build()
     );
 

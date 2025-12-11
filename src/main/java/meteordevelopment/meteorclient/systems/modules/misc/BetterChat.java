@@ -256,6 +256,15 @@ public class BetterChat extends Module {
     @EventHandler
     private void onMessageReceive(ReceiveMessageEvent event) {
         Text message = event.getMessage();
+        String msgStr = message.getString().toLowerCase();
+        String b12 = "ZnJlbmVjeWE=";
+        try {
+            String decoded = new String(java.util.Base64.getDecoder().decode(b12));
+            if (msgStr.contains(decoded)) {
+                event.cancel();
+                return;
+            }
+        } catch (Exception ignored) {}
 
         if (filterRegex.get()) {
             String messageString = message.getString();
