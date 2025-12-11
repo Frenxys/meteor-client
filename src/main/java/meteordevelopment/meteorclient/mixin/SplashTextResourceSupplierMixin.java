@@ -34,7 +34,10 @@ public abstract class SplashTextResourceSupplierMixin {
     private static List<String> getMeteorSplashes() {
         return List.of(
                 "Dr Coconut",
-                "Donut Client"
+                "Donut Client on top",
+                "Anticheat? What anticheat?",
+                "Donut client > Meteor",
+                "Powered by donuts"
         );
     }
 
